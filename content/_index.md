@@ -8,8 +8,8 @@ images:
 image_left: false
 text_align_left: true
 show_action_link: true
-action_link: /about
-action_label: "Learn More &rarr;"
+action_link: /start
+action_label: "Get started &rarr;"
 action_type: text # text, button
 type: home
 ---
