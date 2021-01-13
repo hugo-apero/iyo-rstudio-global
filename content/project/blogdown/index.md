@@ -22,7 +22,7 @@ links:
 subtitle: An R Package
 tags:
 - hugo-site
-title: Bakeoff
+title: Blogdown
 ---
 
 ![Formspree Logo](formspree-logo.png)

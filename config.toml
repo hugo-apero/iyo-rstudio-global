@@ -30,7 +30,7 @@ enableEmoji = true
 
 [params]
   orgName = "RStudio"
-  orgLocal = "Anywhere"
+  orgLocal = "Global"
   description = "A modern, beautiful, and easily configurable blog theme for Hugo."
   favicon = "/img/favicon.ico?v=0"
   logo = "/img/blogophonic-mark-dark.png"
@@ -39,9 +39,9 @@ enableEmoji = true
   navallcaps = true
   # Default image for social sharing and search engines. 
   # Place image file in `static` folder and specify image name here.
-  sharing_image = "/img/papillons.jpg"
+  sharing_image = "/img/global.jpg"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
-  twitter = "apreshill"
+  twitter = "rstudio"
   
   # basic font options: sans-serif or serif
   # for more http://tachyons.io/docs/typography/font-family/
@@ -90,7 +90,7 @@ enableEmoji = true
 [menu]
   [[menu.header]]
     name = "About"
-    title = "About Blogophonic"
+    title = "About the workshop"
     url = "/about/"
     weight = 1
   [[menu.header]]
@@ -99,9 +99,9 @@ enableEmoji = true
     url = "/blog/"
     weight = 2
   [[menu.header]]
-    name = "Projects"
-    title = "Project Portfolio"
-    url = "/project/"
+    name = "Packages"
+    title = "Packages we will use"
+    url = "/packages/"
     weight = 3
   [[menu.header]]
     name = "Elements"
