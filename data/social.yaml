@@ -1,0 +1,13 @@
+social:
+- icon: github
+  icon_pack: fab
+  link: https://github.com/rstudio-education/global-online-in-2-days
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/apreshill
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/alisonpresmaneshill/
+- icon: rss
+  icon_pack: fas
+  link: /blog/index.xml
