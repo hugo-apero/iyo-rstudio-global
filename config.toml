@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://rstudio-global-online-workshop.netlify.app/"
 languageCode = "en"
 title = "Online in 2 days"
 author = "Alison Hill"
