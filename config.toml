@@ -89,9 +89,9 @@ enableEmoji = true
 
 [menu]
   [[menu.header]]
-    name = "About"
-    title = "About the workshop"
-    url = "/about/"
+    name = "Start"
+    title = "Get started"
+    url = "/start/"
     weight = 1
   [[menu.header]]
     name = "Blog"

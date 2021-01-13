@@ -1,5 +1,6 @@
 ---
-title: "About"
+type: about
+title: "Get started"
 description: "A blog template for Hugo developed by Formspree and available for free."
 
 ## Configure header of page
