@@ -1,6 +1,6 @@
 baseURL = "https://rstudio-global-online-workshop.netlify.app/"
 languageCode = "en"
-title = "Online in 2 days"
+title = "Introduce Yourself Online"
 author = "Alison Hill"
 theme = "blogophonic"
 copyright = "" # set to override the auto generated copyright using org info and now year
