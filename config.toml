@@ -1,4 +1,4 @@
-baseURL = "https://rstudio-global-online-workshop.netlify.app/"
+baseURL = "https://iyo-rstudio-global.netlify.app/"
 languageCode = "en"
 title = "Introduce Yourself Online"
 author = "Alison Hill"
@@ -33,12 +33,12 @@ enableEmoji = true
   description = "A modern, beautiful, and easily configurable blog theme for Hugo."
   favicon = "/img/favicon.ico?v=0"
   logo = "/img/blogophonic-mark-dark.png"
-  mainSections = ["blog", "project"]
+  mainSections = ["collection"]
   show_social_links = true
   navallcaps = true
   # Default image for social sharing and search engines. 
   # Place image file in `static` folder and specify image name here.
-  sharing_image = "/img/global.jpg"
+  sharing_image = "rstudio-global-title-center-1100.jpg"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
   twitter = "rstudio"
   
@@ -93,8 +93,8 @@ enableEmoji = true
     url = "/start/"
     weight = 1
   [[menu.header]]
-    name = "Blog"
-    title = "Blog"
+    name = "Materials"
+    title = "Workshop materials"
     url = "/blog/"
     weight = 2
   [[menu.header]]
@@ -103,7 +103,8 @@ enableEmoji = true
     url = "/package/"
     weight = 3
   [[menu.header]]
-    name = "Elements"
-    title = "Element Page"
-    url = "/elements/"
-    weight = 4
+    name = "Days"
+    title = "Packages we will use"
+    url = "/collection/"
+    weight = 3
+
