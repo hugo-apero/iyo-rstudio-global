@@ -1,16 +1,10 @@
 ---
-categories:
-- Theme Features
-- R
-date: "2021-01-03"
-draft: false
-excerpt: Grid is the very first CSS module created specifically to solve the layout
-  problems we’ve all been hacking our way around for as long as we’ve been making
-  websites.
+title: "A third post"
+weight: 3
 subtitle: ""
-tags:
-- hugo-site
-title: A third post
+excerpt: "Grid is the very first CSS module created specifically to solve the layout problems we’ve all been hacking our way around for as long as we’ve been making websites."
+date: 2021-01-03
+draft: false
 ---
 
 {{< here >}}

@@ -1,17 +1,16 @@
 ---
-author: Eric Anderson
-categories:
-- Theme Features
-date: "2019-07-02"
-draft: false
-excerpt: Grid is the very first CSS module created specifically to solve the layout
-  problems we’ve all been hacking our way around for as long as we’ve been making
-  websites.
-layout: single-sidebar
+title: "CSS Grid Scaffold"
 subtitle: ""
+excerpt: "Grid is the very first CSS module created specifically to solve the layout problems we’ve all been hacking our way around for as long as we’ve been making websites."
+date: 2019-07-02
+author: "Eric Anderson"
+draft: false
 tags:
 - hugo-site
-title: CSS Grid Scaffold
+categories:
+- Theme Features
+# layout options: single, single-sidebar
+layout: single-sidebar
 ---
 
 ### “Grid is the very first CSS module created specifically to solve the layout problems we've all been hacking our way around for as long as we've been making websites.”

@@ -1,10 +1,13 @@
 ---
-author: Alison Hill
-date: "2021-01-12"
+title: "A campfire"
+subtitle: "Testing"
+excerpt: "One idea"
+date: 2021-01-12
+author: "Alison Hill"
 draft: false
-excerpt: One idea
+# layout options: single, single-sidebar
 layout: single
-subtitle: Testing
-title: A campfire
+categories:
+- campfire
 ---
 

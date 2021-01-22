@@ -2,7 +2,7 @@ baseURL = "https://iyo-rstudio-global.netlify.app/"
 languageCode = "en"
 title = "Introduce Yourself Online"
 author = "Alison Hill"
-theme = "blogophonic"
+theme = "apero"
 copyright = "" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
 disqusShortname = ""
@@ -94,8 +94,8 @@ enableEmoji = true
     weight = 1
   [[menu.header]]
     name = "Materials"
-    title = "Workshop materials"
-    url = "/blog/"
+    title = "Materials from the workshop"
+    url = "/collection/"
     weight = 2
   [[menu.header]]
     name = "Packages"
@@ -103,8 +103,8 @@ enableEmoji = true
     url = "/package/"
     weight = 3
   [[menu.header]]
-    name = "Days"
-    title = "Packages we will use"
-    url = "/collection/"
-    weight = 3
+    name = "Notes"
+    title = "Notes from the workshop"
+    url = "/blog/"
+    weight = 4
 

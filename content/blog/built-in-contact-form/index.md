@@ -1,17 +1,16 @@
 ---
-author: Eric Anderson
-categories:
-- Theme Features
-date: "2019-07-01"
+title: "Built-in Contact Form"
+subtitle: "Form to email feature powered by Formspree"
+excerpt: "This theme has a form-to-email feature built in, thanks to the simple Formspree integration. All you need to activate the form is a valid recipient email address saved in the form front matter."
+date: 2019-07-01
+author: "Eric Anderson"
 draft: false
-excerpt: This theme has a form-to-email feature built in, thanks to the simple Formspree
-  integration. All you need to activate the form is a valid recipient email address
-  saved in the form front matter.
-layout: single
-subtitle: Form to email feature powered by Formspree
 tags:
-- hugo-site
-title: Built-in Contact Form
+  - hugo-site
+categories:
+  - Theme Features
+# layout options: single, single-sidebar
+layout: single
 ---
 
 ![Formspree Logo](formspree-logo.png)

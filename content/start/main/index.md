@@ -6,7 +6,7 @@ number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: |
   We have 4 hours total together, spread across two 2-hour sessions on two consecutive days. <br><br>
-  Day 1: A GitHub `README` + a `distill` site <br><br>
+  Day 1: A GitHub profile, a `postcards` page, & a `distill` site <br><br>
   Day 2: A `blogdown` site using the new theme <br><br>
   You'll choose one of two sessions to attend both days: <br><br>
   <i class="fas fa-font ph1"></i> Session A: 8am-10am ET <br><br>
