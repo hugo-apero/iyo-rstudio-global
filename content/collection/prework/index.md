@@ -7,7 +7,7 @@ date: 2021-01-01
 draft: false
 ---
 
-Welcome to the [Introducing Yourself Online](/) workshop! We look forward to meeting you. Before attending the workshop, please complete the following prework.
+Welcome to the [Introducing Yourself Online](/) workshop! We look forward to meeting you on Monday, January 25, 2021. Before attending the workshop, please complete the following prework.
 
 ## Set up RStudio Cloud
 
@@ -19,53 +19,69 @@ We will be using GitHub in this workshop for version control and publishing. Sig
 
 + Complete these [installation instructions](https://happygitwithr.com/install-intro.html).
     
-+ Test your connection between GitHub and RStudio following [these steps](https://happygitwithr.com/connect-intro.html). 
-    
++ Test your connection between GitHub and RStudio following [these steps](https://happygitwithr.com/connect-intro.html).
+
 + **NOTE:** We *strongly recommend* that if you are not already a fluent GitHub user you choose [HTTPS over SSH](https://happygitwithr.com/credential-caching.html).
+
++ Check your new repository settings. As of [October 1, 2020](https://github.blog/changelog/2020-08-26-set-the-default-branch-for-newly-created-repositories/), GitHub will set `main` as the default branch for all new repositories, instead of `master`. To check this, for user accounts, go to: <https://github.com/settings/repositories>
+
+    You should see something like this:
+
+    ![](github-main.png)
+
+    If yours still says `master`, you may change it to `main` here if you wish.
+
+## Installations
+
+On the days of the workshop, please plan to work from a laptop that has the following installed:
+
++ A recent version of R (>=3.6.0), which is available for free at https://cloud.r-project.org/
+    
++ The most recent version of the RStudio Desktop Integrated Development Environment (IDE version 1.4), available for free ([RStudio Desktop Open Source License](https://www.rstudio.com/products/rstudio/download/#download)). Read up on the latest version [here](https://blog.rstudio.com/2021/01/19/announcing-rstudio-1-4/).
+    
++ The R packages we will use, which you can install by connecting to the internet, opening RStudio, and running at the command line:
+
+    ```r
+    > install.packages(c("usethis", "remotes", "distill", 
+                         "postcards", "blogdown"))
+    ```
+    
+    You'll also need to install the development version of the `rmarkdown` package:
+    
+    ```r
+    > remotes::install_github("rmarkdown")
+    ```
+    
++ Restart your R session before using any newly installed packages :smile:
+
+## Install Hugo
+
+On day 02, we'll use the blogdown package to make a Hugo website. Please go ahead and install Hugo:
+ 
+```r
+> blogdown::install_hugo()
+```
+
+And ensure your current version is at least as high as:
+
+```r
+> hugo_version()
+[1] ‘0.79.0’
+```
 
 ## Brush up on markdown
 
 Please complete this [10-minute interactive tutorial on Markdown](https://commonmark.org/help/tutorial/). 
 
-## Installations
-
-Please bring a laptop that has the following installed:
-
-+ A recent version of R (>=3.6.0), which is available for free at https://cloud.r-project.org/
-    
-+ A recent version of RStudio Desktop (>=1.4), available for free ([RStudio Desktop Open Source License](https://www.rstudio.com/products/rstudio/download/#download)). Read up on the latest version [here](https://blog.rstudio.com/2021/01/19/announcing-rstudio-1-4/).
-    
-+ The R packages we will use, which you can install by connecting to the internet, opening RStudio, and running at the command line:
-
-    ```
-    > install.packages(c("usethis", "remotes", "distill", 
-                       "postcards", "blogdown"))
-    ```
-    
-    You'll also need to install the development version of the `rmarkdown` package:
-    
-    ```
-    > remotes::install_github("rmarkdown")
-    ```
-
-## Install Hugo
-
-To use blogdown, please install Hugo:
-```
-> blogdown::install_hugo()
-```
-
-And ensure your current version is at least as high as:
-```
-> hugo_version()
-[1] ‘0.79.0’
-```
-
 ## Check pandoc
 
-The RStudio IDE bundles an updated version of pandoc- if you did install v1.4 of the IDE, you should be all set!
+The RStudio IDE bundles an updated version of pandoc- if you did install v1.4 of the IDE, you should be all set with version `2.11.3`. If not, go back to finish up the [installations](#installations) steps.
 
-```
+```r
 > rmarkdown::pandoc_version()
 [1] ‘2.11.3’
 ```
+
+## Extra credit
+
+We'll start on day 01 with the distill package. Take a peek at the resources [here](/package/distill/).

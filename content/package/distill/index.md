@@ -1,10 +1,10 @@
 ---
 title: "Distill"
+weight: 2
 subtitle: "Build websites with the Distill web framework and R Markdown"
 excerpt: "The goal of the Distill package is to provide an output format for R Markdown optimized for online scientific and technical communication."
 date: 2021-01-18
 author: "Alison Hill"
-draft: false
 tags:
   - website
   - blog
@@ -34,12 +34,17 @@ links:
 
 Distill is a package built for R Markdown, an ecosystem of packages for creating computational documents in R. The goal of the Distill package is to provide an output format optimized for online scientific and technical communication. You may install it from CRAN:
 
-```
+```r
 install.packages("distill")
 ```
 
 In this workshop, we'll also use the postcards package to generate a nice "about" page for your distill website. You may also install it from CRAN:
 
-```
+```r
 install.packages("postcards")
 ```
+
+## Additional resources
+
++ [Made-for-each-other: postcards + distill](https://alison.rbind.io/post/2020-12-22-postcards-distill/) by your truly
++ [Building a distill website](https://lisalendway.netlify.app/posts/2020-12-09-buildingdistill/) by Dr. Lisa Lendway

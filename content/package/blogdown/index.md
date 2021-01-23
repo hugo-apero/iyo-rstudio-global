@@ -1,10 +1,10 @@
 ---
 title: "Blogdown"
+weight: 3
 subtitle: "Build websites with Hugo and R Markdown"
 excerpt: "The goal of the blogdown package is to provide a powerful and infinitely customizable website output format for R Markdown."
 date: 2021-01-18
 author: "Alison Hill"
-draft: false
 tags:
   - website
   - blog
@@ -30,6 +30,6 @@ links:
 
 The goal of the blogdown package is to provide a powerful and infinitely customizable website output format for R Markdown. You may install it from CRAN:
 
-```
+```r
 install.packages("blogdown")
 ```

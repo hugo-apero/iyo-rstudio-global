@@ -4,11 +4,14 @@ social:
   link: https://global.rstudio.com
 - icon: link
   icon_pack: fas
-  link: https://rstudio-global-online-workshop.netlify.app/
+  link: https://iyo-rstudio-global.netlify.app/
 - icon: github
   icon_pack: fab
-  link: https://github.com/rstudio-education/global-online-in-2-days
+  link: https://github.com/rstudio-education/iyo-rstudio-global
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/apreshill
+- icon: hashtag
+  icon_pack: fas
+  link: https://twitter.com/hashtag/keepglobalgoing
 
