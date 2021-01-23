@@ -30,6 +30,21 @@ We will be using GitHub in this workshop for version control and publishing. Sig
     ![](github-main.png)
 
     If yours still says `master`, you may change it to `main` here if you wish.
+    
+## Sign up for Netlify
+
+Netlify is a platform that offers cloud hosting and serverless backend services for static websites. Lucky for us, that is what we need- we'll be making static websites together! Netlify has a free plan, which we will use in this workshop. Please go ahead and sign up:
+
+1. Go online to [Netlify.com](https://www.netlify.com/).
+
+1. Click on the "Sign Up" button. 
+
+    ![](netlify-signup.png)
+
+1. I recommend signing up using your existing GitHub account (no need to create another account), so select "GitHub" (you may need to sign in), and click to "Authorize Netlify."
+
+    ![](netlify-github.png)
+
 
 ## Installations
 
