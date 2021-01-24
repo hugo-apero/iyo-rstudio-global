@@ -46,5 +46,6 @@ install.packages("postcards")
 
 ## Additional resources
 
-+ [Made-for-each-other: postcards + distill](https://alison.rbind.io/post/2020-12-22-postcards-distill/) by your truly
++ [Made-for-each-other: postcards + distill](https://alison.rbind.io/post/2020-12-22-postcards-distill/) by yours truly
+
 + [Building a distill website](https://lisalendway.netlify.app/posts/2020-12-09-buildingdistill/) by Dr. Lisa Lendway
