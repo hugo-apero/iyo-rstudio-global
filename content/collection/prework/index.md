@@ -65,7 +65,7 @@ On the days of the workshop, please plan to work from a laptop that has the foll
     You'll also need to install the development version of the `rmarkdown` package:
     
     ```r
-    > remotes::install_github("rmarkdown")
+    > remotes::install_github("rstudio/rmarkdown")
     ```
     
 + Restart your R session before using any newly installed packages :smile:
