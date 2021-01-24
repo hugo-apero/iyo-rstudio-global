@@ -81,7 +81,7 @@ On day 02, we'll use the blogdown package to make a Hugo website. Please go ahea
 And ensure your current version is at least as high as:
 
 ```r
-> hugo_version()
+> blogdown::hugo_version()
 [1] ‘0.79.0’
 ```
 
