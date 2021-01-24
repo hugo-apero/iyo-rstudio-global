@@ -1,0 +1,32 @@
+---
+title: "Why online?"
+weight: 1
+subtitle: "Why and how to introduce yourself online."
+excerpt: "I cannot promise fame or fortune, but I can promise: friendship, findability, fun, and function."
+date: 2021-01-25
+draft: true
+---
+
+## Why introduce yourself online?
+
+```{r embed-xaringan, echo=FALSE}
+xaringanExtra::embed_xaringan(url = "/slides/01-why-online.html", ratio = "4:3")
+```
+
+## Activity
+
+You can share information about yourself with the community on GitHub by creating a profile README. GitHub shows your profile README at the top of your profile page.
+
+### Profile
+
+https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/personalizing-your-profile
+
+### Pin projects to profile
+
+https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/pinning-items-to-your-profile
+
+### Profile README
+
+This is new! Let's do it:
+
+https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme

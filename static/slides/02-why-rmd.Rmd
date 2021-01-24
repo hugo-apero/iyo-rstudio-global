@@ -1,0 +1,130 @@
+---
+title: "Introduce Yourself Online"
+subtitle: "A workshop @ rstudio::global(2021)"
+author: Dr. Alison Presmanes Hill
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: ["default", "css/grayscale.css", "css/fonts.css"]
+    seal: false 
+    lib_dir: libs
+    nature:
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+      highlightStyle: solarized-light
+      highlightLanguage: ["r", "css", "yaml"]
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(collapse = TRUE,
+                      fig.retina = 3)
+library(xaringanExtra)
+```
+
+```{r share-again, echo=FALSE}
+xaringanExtra::use_share_again()
+```
+
+class: title-slide, center, bottom
+background-image: url(img/index.jpg)
+background-position: 50% 20%
+background-size: 50%
+background-color: #ffffff
+
+# `r rmarkdown::metadata$title`
+
+## `r rmarkdown::metadata$subtitle`
+
+### `r rmarkdown::metadata$author`
+
+---
+class: inverse, center, middle
+
+# Why R Markdown?
+
+---
+class: center, middle
+
+# Why R Markdown?
+
+--
+
+Use R code inside
+
+--
+
+Use RStudio IDE
+
+--
+
+Use the tools you already use (or should be using- `r emo::ji("wink")`) for your work
+
+---
+
+## What is R Markdown?
+
+---
+
+.right-column[
+
+# What is R Markdown?
+
+
+1. An authoring framework for data science.
+
+1. A document format (`.Rmd`).
+
+1. An R package named `rmarkdown`.
+
+1. A file format for making dynamic documents with R. 
+
+1. A tool for integrating prose, code, and results.
+
+1. A computational document.
+
+1. Wizardry.
+
+]
+
+---
+
+.right-column[
+
+# What is R Markdown?
+
+1. ["An authoring framework for data science."](https://rmarkdown.rstudio.com/lesson-1.html) (`r emo::ji("heavy_check_mark")`)
+
+1. [A document format (`.Rmd`).](https://bookdown.org/yihui/rmarkdown/) (`r emo::ji("heavy_check_mark")`)
+
+1. [An R package named `rmarkdown`.](https://rmarkdown.rstudio.com/docs/) (`r emo::ji("heavy_check_mark")`)
+
+1. ["A file format for making dynamic documents with R."](https://rmarkdown.rstudio.com/articles_intro.html) (`r emo::ji("heavy_check_mark")`)
+
+1. ["A tool for integrating text, code, and results."](https://r4ds.had.co.nz/communicate-intro.html) (`r emo::ji("heavy_check_mark")`)
+
+1. ["A computational document."](http://radar.oreilly.com/2011/07/wolframs-computational-documen.html) (`r emo::ji("heavy_check_mark")`)
+
+1. Wizardry. (`r emo::ji("wizard")`)
+
+]
+
+
+
+
+---
+class: activity, center, middle
+
+# `r emo::ji("stopwatch")`
+
+## To RStudio!
+
+Let’s go to our breakout rooms and make a homepage with the postcards package.
+
+`r emo::ji("clock")` 10 minutes

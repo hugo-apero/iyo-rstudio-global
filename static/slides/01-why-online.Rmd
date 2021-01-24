@@ -1,0 +1,121 @@
+---
+title: "Introduce Yourself Online"
+subtitle: "A workshop @ rstudio::global(2021)"
+author: Dr. Alison Presmanes Hill
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: ["default", "css/grayscale.css", "css/fonts.css"]
+    seal: false 
+    lib_dir: libs
+    nature:
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+      highlightStyle: solarized-light
+      highlightLanguage: ["r", "css", "yaml"]
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(collapse = TRUE,
+                      fig.retina = 3)
+library(xaringanExtra)
+```
+
+```{r share-again, echo=FALSE}
+xaringanExtra::use_share_again()
+```
+
+class: title-slide, center, bottom
+background-image: url(img/internet.jpg)
+background-position: 50% 20%
+background-size: 30%
+background-color: #ffffff
+
+# `r rmarkdown::metadata$title`
+
+## `r rmarkdown::metadata$subtitle`
+
+### `r rmarkdown::metadata$author`
+
+---
+class: inverse, center, middle
+
+# Why introduce yourself online? 
+
+---
+class: center, middle
+
+# Why introduce yourself online? 
+
+--
+
+Fame? 
+
+--
+
+Fortune? 
+
+--
+
+Friendship? 
+
+--
+
+Findability? 
+
+--
+
+Fun?
+
+--
+
+Functional?
+
+---
+
+## How to introduce yourself online?
+
+Lots of ways!
+
+4 for us:
+
+--
+
+1. Name tag: GitHub profile
+
+1. Business card: a postcard (about page)
+
+1. Cup of coffee: a distill website (about page + projects + blog)
+
+1. Happy hour: a blogdown site
+
+---
+class: center, middle
+
+
+## "Must I blog?"
+
+No. 
+
+--
+
+But you can. And if you do, you may follow your own rules. It is *your* space.
+
+
+---
+class: activity, center, middle
+
+# `r emo::ji("stopwatch")`
+
+## To RStudio!
+
+Let’s go to our breakout rooms and make our GitHub name tags right now
+
+`r emo::ji("clock")` 10 minutes
