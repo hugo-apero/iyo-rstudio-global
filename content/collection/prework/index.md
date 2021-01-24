@@ -91,11 +91,11 @@ Please complete this [10-minute interactive tutorial on Markdown](https://common
 
 ## Check pandoc
 
-The RStudio IDE bundles an updated version of pandoc- if you did install v1.4 of the IDE, you should be all set with version `2.11.3`. If not, go back to finish up the [installations](#installations) steps.
+The RStudio IDE bundles an updated version of pandoc- if you did install v1.4 of the IDE, you should be all set with version `2.11.2`. If not, go back to finish up the [installations](#installations) steps.
 
 ```r
 > rmarkdown::pandoc_version()
-[1] ‘2.11.3’
+[1] ‘2.11.2’
 ```
 
 ## Extra credit
