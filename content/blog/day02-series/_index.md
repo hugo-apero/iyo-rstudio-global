@@ -1,5 +1,6 @@
 ---
 title: Day 02
+weight: 2
 description: |
   Day 02 of the Introduce Yourself Online workshop for rstudio::global(2021)
 author: Alison Hill
@@ -32,11 +33,6 @@ cascade:
     show_sidebar_adunit: true # show ad container
     text_series_label: "On Day 02" 
     text_contents_label: "On this page" 
-  tags:
-  - hugo-site
-  categories:
-  - Theme Features
-  - R
 ---
 
 ** No content below YAML for the series _index. This file is a leaf bundle, and provides settings for the listing page layout and sidebar content.**

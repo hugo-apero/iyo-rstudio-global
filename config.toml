@@ -101,9 +101,4 @@ enableEmoji = true
     title = "Packages we will use"
     url = "/package/"
     weight = 3
-  [[menu.header]]
-    name = "Notes"
-    title = "Notes from the workshop"
-    url = "/blog/"
-    weight = 4
 

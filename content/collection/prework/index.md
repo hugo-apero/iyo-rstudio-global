@@ -1,9 +1,10 @@
 ---
 title: "Prework"
+author: Alison Hill
 weight: 1
-subtitle: ""
-excerpt: "How to prepare ahead of time."
-date: 2021-01-01
+subtitle: "How to prepare ahead of time."
+excerpt: "How to prepare for the workshop ahead of time."
+date: 2021-01-23
 draft: false
 ---
 
@@ -84,7 +85,7 @@ And ensure your current version is at least as high as:
 [1] ‘0.79.0’
 ```
 
-## Brush up on markdown
+## Markdown review
 
 Please complete this [10-minute interactive tutorial on Markdown](https://commonmark.org/help/tutorial/). 
 

@@ -1,5 +1,6 @@
 ---
 title: Day 01
+weight: 1
 description: |
   Day 01 of the Introduce Yourself Online workshop for rstudio::global(2021)
 author: Alison Hill
@@ -30,11 +31,6 @@ cascade:
     text_link_url: "/collection/day01/"
     text_series_label: "On Day 01" 
     text_contents_label: "On this page" 
-  tags:
-  - hugo-site
-  categories:
-  - Theme Features
-  - R
 ---
 
 ** No content below YAML for the series _index. This file is a leaf bundle, and provides settings for the listing page layout and sidebar content.**
