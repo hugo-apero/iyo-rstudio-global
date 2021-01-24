@@ -33,3 +33,11 @@ The goal of the blogdown package is to provide a powerful and infinitely customi
 ```r
 install.packages("blogdown")
 ```
+
+## Additional resources
+
++ [Up & running with blogdown in 2021](https://alison.rbind.io/post/new-year-new-blogdown/)
+
++ [Unbreak your blogdown site](https://alison.rbind.io/post/2020-12-27-blogdown-checks/) 
+
++ [A spoonful of Hugo series](https://alison.rbind.io/categories/hugo/)
