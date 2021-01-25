@@ -71,6 +71,6 @@ class: activity, center, middle
 
 ## To RStudio!
 
-Let’s go to our breakout rooms and make a homepage with the postcards package.
+Let’s go to our breakout rooms and make a website with the distill package.
 
 `r emo::ji("clock")` 10 minutes
