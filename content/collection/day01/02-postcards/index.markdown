@@ -75,11 +75,15 @@ usethis::create_from_github("apreshill/iyo-postcard",
 
 5.  Click Create Project.
 
-<hr>
+### First commit & push
 
 **Everyone - all together now!**
 
-:sparkles: Commit :sparkles:
+``` bash
+> git add .
+> git commit -m "initial commit"
+> git push origin main
+```
 
 You should be committing these files:
 
@@ -87,12 +91,7 @@ You should be committing these files:
 
 -   `.gitignore`
 
-Now, in your terminal, do this:
-
-``` bash
-git branch -M main
-git push -u origin main
-```
+After this first push, you should be able to use the RStudio IDE to commit / push / pull freely.
 
 ### Create a postcard
 
