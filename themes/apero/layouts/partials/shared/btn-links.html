@@ -6,8 +6,6 @@
     {{ end }}
     {{ $link := .url }}
     {{ $scheme := (urls.Parse $link).Scheme }}
-    
-    {{ (urls.Parse $link).Scheme }}
     {{ $target := "" }}
     {{ if not $scheme }}
       {{ $link = .url | relLangURL }}
