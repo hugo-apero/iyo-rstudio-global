@@ -67,13 +67,20 @@ usethis::create_from_github("apreshill/iyo-postcard",
 
 **Everyone - all together now!**
 
-:sparkles: Commit & Push! :sparkles:
+:sparkles: Commit :sparkles:
 
 You should be committing these files:
 
 -   `*.Rproj`
 
 -   `.gitignore`
+
+Now, in your terminal, do this:
+
+``` bash
+git branch -M main
+git push -u origin main
+```
 
 ### Create a postcard
 
@@ -113,6 +120,15 @@ Want to know more? Under the hood, these are R Markdown templates, which you can
 ### Anatomy of a postcard
 
 YAML, body, name is index- this is special
+
+In your YAML, note:
+
+``` yaml
+output:
+  postcards::trestles
+```
+
+This is your output format! More generally, `<package>::<template>`. Whhen you knit :yarn: (next section), the RStudio IDE detects this YAML key and knits to the appropriate output format.
 
 :sparkles: Commit & Push! :sparkles:
 
@@ -159,8 +175,7 @@ Medium:
 -   Use the `usethis` package to configure GitHub Pages from R:
 
 ``` r
-> library(usethis)
-> use_github_pages(branch = "main", path = "/")
+> usethis::use_github_pages(branch = "main", path = "/")
 ✓ Setting active project to '/Users/alison/rscratch/iyo-postcard'
 ✓ Activating GitHub Pages for 'apreshill/iyo-postcard'
 ✓ GitHub Pages is publishing from:
