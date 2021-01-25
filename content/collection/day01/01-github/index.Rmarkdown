@@ -9,9 +9,13 @@ draft: false
 
 ## Why introduce yourself online?
 
+[Slides](/slides/01-why-online.html)
+
 ```{r embed-xaringan, echo=FALSE}
 xaringanExtra::embed_xaringan(url = "/slides/01-why-online.html", ratio = "16:9")
 ```
+
+
 
 ## Activity (`r emo::ji("stopwatch")` 10 minutes)
 

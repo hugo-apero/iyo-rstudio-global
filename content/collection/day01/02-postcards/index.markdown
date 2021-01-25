@@ -11,6 +11,8 @@ draft: false
 
 ## Why R Markdown?
 
+[Slides](/slides/02-why-rmd.html)
+
 <div class="shareagain" style="min-width:300px;margin:1em auto;">
 <iframe src="/slides/02-why-rmd.html" width="1600" height="900" style="border:2px solid currentColor;" loading="lazy" allowfullscreen></iframe>
 <script>fitvids('.shareagain', {players: 'iframe'});</script>

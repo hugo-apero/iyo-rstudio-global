@@ -11,6 +11,8 @@ draft: false
 
 ## Why blog?
 
+[Slides](/slides/04-why-blog.html)
+
 <div class="shareagain" style="min-width:300px;margin:1em auto;">
 <iframe src="/slides/04-why-blog.html" width="1600" height="900" style="border:2px solid currentColor;" loading="lazy" allowfullscreen></iframe>
 <script>fitvids('.shareagain', {players: 'iframe'});</script>

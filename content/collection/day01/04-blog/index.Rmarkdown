@@ -14,6 +14,8 @@ knitr::opts_chunk$set(eval=FALSE)
 
 ## Why blog?
 
+[Slides](/slides/04-why-blog.html)
+
 ```{r embed-xaringan, echo=FALSE, eval=TRUE}
 xaringanExtra::embed_xaringan(url = "/slides/04-why-blog.html", ratio = "16:9")
 ```

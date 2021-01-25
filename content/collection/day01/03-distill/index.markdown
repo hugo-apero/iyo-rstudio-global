@@ -11,6 +11,8 @@ draft: false
 
 ## Why R?
 
+[Slides](/slides/03-why-r.html)
+
 <div class="shareagain" style="min-width:300px;margin:1em auto;">
 <iframe src="/slides/03-why-r.html" width="1600" height="900" style="border:2px solid currentColor;" loading="lazy" allowfullscreen></iframe>
 <script>fitvids('.shareagain', {players: 'iframe'});</script>
