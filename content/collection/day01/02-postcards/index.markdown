@@ -12,13 +12,13 @@ draft: true
 ## Why R Markdown?
 
 <div class="shareagain" style="min-width:300px;margin:1em auto;">
-<iframe src="/slides/02-why-rmd.html" width="400" height="300" style="border:2px solid currentColor;" loading="lazy" allowfullscreen></iframe>
+<iframe src="/slides/02-why-rmd.html" width="1600" height="900" style="border:2px solid currentColor;" loading="lazy" allowfullscreen></iframe>
 <script>fitvids('.shareagain', {players: 'iframe'});</script>
 </div>
 
-## Activity
+## Activity (⏱ 10 minutes)
 
-Let’s use the postcards package to make a simple postcard right now, and publish it with GitHub Pages.
+Let’s use the postcards package to make a simple, single “about” page right now, and publish it with GitHub Pages.
 
 ### Pre-requisites
 
@@ -40,13 +40,32 @@ packageVersion("postcards")
 
 ### Create GitHub repo
 
-Online.
+Go online to your GitHub account, and create a new repository (leave it empty- don’t add a `README` or `.gitignore`).
 
 ### Clone GitHub repo
 
+We just created the remote repository on GitHub. To make a local copy on our computer that we can actually work in, we’ll clone that repository into a new RStudio project. This will allow us to sync between the two locations: your remote (the one you see on github.com) and your local desktop. Do this:
+
 ``` r
-usethis::create_from_github("https://github.com/apreshill/global-postcard.git")
+usethis::create_from_github("apreshill/iyo-postcard", 
+                            destdir = "/Users/alison/rscratch")
 ```
+
+**Alternatively**, use the RStudio IDE project wizard:
+
+1.  Open up RStudio to create a new project where your website’s files will live.
+
+2.  Click `File > New Project > Version Control > Git`.
+
+3.  Paste the URL from GitHub (either HTTPS or SSH).
+
+4.  Be intentional about where you tell RStudio to create this new Project on your workstation.
+
+5.  Click Create Project.
+
+<hr>
+
+**Everyone - all together now!**
 
 :sparkles: Commit & Push! :sparkles:
 
@@ -107,7 +126,7 @@ But! There is no `.html` file (yet…)
 
 ### Knit the postcard
 
-Knit button or
+Knit button :yarn:, or:
 
 ``` r
 rmarkdown::render("index.Rmd")
@@ -123,11 +142,17 @@ You should be committing this files:
 
 (You may get a warning in RStudio IDE that this file is too big- go right ahead)
 
+### Edit your postcard
+
+Social & other links go in the YAML, some templates (like `trestles`) have content in the body.
+
 ### Publish a postcard
 
 Easy:
 
--   Push & publish to GitHub Pages: <https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site#creating-your-site>
+-   Publish to GitHub Pages via github.com:
+
+<https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site#creating-your-site>
 
 Medium:
 
@@ -136,10 +161,10 @@ Medium:
 ``` r
 > library(usethis)
 > use_github_pages(branch = "main", path = "/")
-✓ Setting active project to '/Users/alison/rscratch/global-postcard'
-✓ Activating GitHub Pages for 'apreshill/global-postcard'
+✓ Setting active project to '/Users/alison/rscratch/iyo-postcard'
+✓ Activating GitHub Pages for 'apreshill/iyo-postcard'
 ✓ GitHub Pages is publishing from:
-● URL: 'https://apreshill.github.io/global-postcard/'
+● URL: 'https://apreshill.github.io/iyo-postcard/'
 ● Branch: 'main'
 ● Path: '/'
 ```

@@ -168,7 +168,7 @@ background-color: #ffffff
 ---
 class: inverse, center, middle
 
-## Start with GitHub Pages
+## Start with GitHub Pages `r emo::ji("rocket")`
 
 ---
 class: middle, center
@@ -230,10 +230,6 @@ class: middle, center
 `https://github.com/<user>/<repo>/<.html>`
 
 ]
-
-
-
-
 
 ---
 class: activity, center, middle
