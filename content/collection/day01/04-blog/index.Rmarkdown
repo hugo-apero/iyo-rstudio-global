@@ -4,7 +4,7 @@ weight: 4
 subtitle: "Of digital streams, campfires, and gardens."
 excerpt: "Grid is the very first CSS module created specifically to solve the layout problems we’ve all been hacking our way around for as long as we’ve been making websites."
 date: 2021-01-25
-draft: true
+draft: false
 ---
 
 ```{r setup, include=FALSE}
@@ -15,7 +15,7 @@ knitr::opts_chunk$set(eval=FALSE)
 ## Why blog?
 
 ```{r embed-xaringan, echo=FALSE, eval=TRUE}
-xaringanExtra::embed_xaringan(url = "/slides/04-why-blog.html", ratio = "4:3")
+xaringanExtra::embed_xaringan(url = "/slides/04-why-blog.html", ratio = "16:9")
 ```
 
 
@@ -32,7 +32,7 @@ We have a distill website. It has a nice about page, courtesy of the postcards p
 Back in your console, we can add a blog, using distill:
 
 ```{r}
-create_post("welcome")
+distill::create_post("welcome")
 ```
 
 If you do this with a blog already, it just adds a single post. But if you do this without posts set up, it does some nice things for you:
@@ -51,7 +51,7 @@ file.edit("blog.Rmd")
 
 Then open up your new `blog.Rmd` and add a YAML (no content below the YAML):
 
-``` {.yaml}
+```yaml
 ---
 title: "Blog"  # any name you want here
 listing: posts # do this exactly
@@ -60,7 +60,7 @@ listing: posts # do this exactly
 
 Finally, add a link to your blog in your upper navbar so people can actually find it! Do this by editing `_site.yml` one last time (remember, since my listing `.Rmd` is named `blog.Rmd`, then the href I want to link to is `blog.html`):
 
-``` {.yaml}
+```yaml
 navbar:
   right:
     - text: "Home"
@@ -79,7 +79,7 @@ Now you may be wishing that your postcards page was your homepage- the place whe
 
 If you open up `index.Rmd`, you should see this yaml:
 
-``` yaml
+```yaml
 ---
 title: "iyo"
 description: |
@@ -91,9 +91,12 @@ site: distill::distill_website
 That `site` key is very important to keep in the `index.Rmd` file. Steps:
 
 1.  Let's start by adding `site: distill::distill_website` to the yaml of your postcards page, mine is named `about.Rmd`.
-2.  After doing that, you can delete `index.Rmd`.
-3.  Next, rename `about.Rmd` -\> `index.Rmd`.
-4.  Finally, clean up your `_site.yml` - you can remove the link we added above to `about.html`.
+
+1.  After doing that, you can delete `index.Rmd`.
+
+1.  Next, rename `about.Rmd` -\> `index.Rmd`.
+
+1.  Finally, clean up your `_site.yml` - you can remove the link we added above to `about.html`.
 
 Re-build your site and your shining face should greet you from the homepage!
 
@@ -103,7 +106,7 @@ Re-build your site and your shining face should greet you from the homepage!
 Follow the docs here: <https://rstudio.github.io/distill/website.html#theming>
 
 ```{r}
-distill::create_theme("apreshill")
+distill::create_theme("iyo")
 ```
 
 
@@ -112,12 +115,12 @@ Need inspiration? Try one of our [example themes](https://rstudio.github.io/dist
 Remember your `_site.yml` file? Add the theme line there:
 
 ```yaml
-name: "Alison Hill"
-title: "Personal website of Dr. Alison Hill"
+name: "Introduce Yourself Online"
+title: "iyo-distill"
 description: |
-  This is my personal website.
+  iyo-distill
 output_dir: "docs"
-theme: apreshill.css           << here!
+theme: iyo.css           << here!
 navbar:
   right:
     - text: "Home"

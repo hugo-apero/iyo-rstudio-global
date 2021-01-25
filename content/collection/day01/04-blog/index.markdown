@@ -4,7 +4,7 @@ weight: 4
 subtitle: "Of digital streams, campfires, and gardens."
 excerpt: "Grid is the very first CSS module created specifically to solve the layout problems we’ve all been hacking our way around for as long as we’ve been making websites."
 date: 2021-01-25
-draft: true
+draft: false
 ---
 
 <script src="{{< blogdown/postref >}}index_files/fitvids/fitvids.min.js"></script>
@@ -12,7 +12,7 @@ draft: true
 ## Why blog?
 
 <div class="shareagain" style="min-width:300px;margin:1em auto;">
-<iframe src="/slides/04-why-blog.html" width="400" height="300" style="border:2px solid currentColor;" loading="lazy" allowfullscreen></iframe>
+<iframe src="/slides/04-why-blog.html" width="1600" height="900" style="border:2px solid currentColor;" loading="lazy" allowfullscreen></iframe>
 <script>fitvids('.shareagain', {players: 'iframe'});</script>
 </div>
 
@@ -29,7 +29,7 @@ We have a distill website. It has a nice about page, courtesy of the postcards p
 Back in your console, we can add a blog, using distill:
 
 ``` r
-create_post("welcome")
+distill::create_post("welcome")
 ```
 
 If you do this with a blog already, it just adds a single post. But if you do this without posts set up, it does some nice things for you:
@@ -88,8 +88,11 @@ site: distill::distill_website
 That `site` key is very important to keep in the `index.Rmd` file. Steps:
 
 1.  Let’s start by adding `site: distill::distill_website` to the yaml of your postcards page, mine is named `about.Rmd`.
+
 2.  After doing that, you can delete `index.Rmd`.
+
 3.  Next, rename `about.Rmd` -&gt; `index.Rmd`.
+
 4.  Finally, clean up your `_site.yml` - you can remove the link we added above to `about.html`.
 
 Re-build your site and your shining face should greet you from the homepage!
@@ -99,7 +102,7 @@ Re-build your site and your shining face should greet you from the homepage!
 Follow the docs here: <https://rstudio.github.io/distill/website.html#theming>
 
 ``` r
-distill::create_theme("apreshill")
+distill::create_theme("iyo")
 ```
 
 Need inspiration? Try one of our [example themes](https://rstudio.github.io/distill/website.html#example-themes).
@@ -107,12 +110,12 @@ Need inspiration? Try one of our [example themes](https://rstudio.github.io/dist
 Remember your `_site.yml` file? Add the theme line there:
 
 ``` yaml
-name: "Alison Hill"
-title: "Personal website of Dr. Alison Hill"
+name: "Introduce Yourself Online"
+title: "iyo-distill"
 description: |
-  This is my personal website.
+  iyo-distill
 output_dir: "docs"
-theme: apreshill.css           << here!
+theme: iyo.css           << here!
 navbar:
   right:
     - text: "Home"
