@@ -139,7 +139,7 @@ output:
   postcards::trestles
 ```
 
-This is your output format! More generally, `<package>::<template>`. Whhen you knit :yarn: (next section), the RStudio IDE detects this YAML key and knits to the appropriate output format.
+This is your output format! More generally, `<package>::<template>`. When you knit :yarn: (next section), the RStudio IDE detects this YAML key and knits to the appropriate output format.
 
 :sparkles: Commit & Push! :sparkles:
 
