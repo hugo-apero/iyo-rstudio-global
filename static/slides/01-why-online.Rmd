@@ -79,6 +79,24 @@ Fun?
 Functional?
 
 ---
+class: center, middle
+
+# Why introduce yourself online? 
+
+
+~~Fame~~ `r emo::ji("x")`
+
+~~Fortune~~ `r emo::ji("x")`
+
+Friendship `r emo::ji("heavy_check_mark")`
+
+Findability `r emo::ji("heavy_check_mark")`
+
+Fun `r emo::ji("heavy_check_mark")`
+
+Functional `r emo::ji("heavy_check_mark")`
+
+---
 
 ## How to introduce yourself online?
 
@@ -88,13 +106,13 @@ Lots of ways!
 
 --
 
-1. Name tag: GitHub profile
+1. Name tag: GitHub profile `r emo::ji("name_badge")` (`day 01`)
 
-1. Business card: a postcard (about page)
+1. Business card: a postcard (about page) `r emo::ji("love_letter")` (`day 01`)
 
-1. Cup of coffee: a distill website (about page + projects + blog)
+1. Cup of coffee: a distill website (about page + projects + blog) `r emo::ji("coffee")` (`day 01`)
 
-1. Happy hour: a blogdown site
+1. Happy hour: a blogdown site `r emo::ji("dango")` (`day 02`)
 
 ---
 class: center, middle
