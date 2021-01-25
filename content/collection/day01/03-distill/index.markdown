@@ -4,7 +4,7 @@ weight: 3
 subtitle: "We still don't have a place to put all our R stuff!"
 excerpt: "Grid is the very first CSS module created specifically to solve the layout problems we’ve all been hacking our way around for as long as we’ve been making websites."
 date: 2021-01-25
-draft: true
+draft: false
 ---
 
 <script src="{{< blogdown/postref >}}index_files/fitvids/fitvids.min.js"></script>
@@ -12,11 +12,11 @@ draft: true
 ## Why R?
 
 <div class="shareagain" style="min-width:300px;margin:1em auto;">
-<iframe src="/slides/03-why-r.html" width="400" height="300" style="border:2px solid currentColor;" loading="lazy" allowfullscreen></iframe>
+<iframe src="/slides/03-why-r.html" width="1600" height="900" style="border:2px solid currentColor;" loading="lazy" allowfullscreen></iframe>
 <script>fitvids('.shareagain', {players: 'iframe'});</script>
 </div>
 
-## Activity
+## Activity (⏱ 10 minutes)
 
 ### Pre-requisites
 
@@ -38,21 +38,47 @@ packageVersion("distill")
 
 ### Create GitHub repo
 
-Online.
+Go online to your GitHub account, and create a new repository (leave it empty- don’t add a `README` or `.gitignore`).
 
 ### Clone GitHub repo
 
+We just created the remote repository on GitHub. To make a local copy on our computer that we can actually work in, we’ll clone that repository into a new RStudio project. This will allow us to sync between the two locations: your remote (the one you see on github.com) and your local desktop. Do this:
+
 ``` r
-usethis::create_from_github("https://github.com/apreshill/global-distill.git")
+usethis::create_from_github("apreshill/iyo-distill", 
+                            destdir = "/Users/alison/rscratch")
 ```
 
-:sparkles: Commit & Push! :sparkles:
+**Alternatively**, use the RStudio IDE project wizard:
+
+1.  Open up RStudio to create a new project where your website’s files will live.
+
+2.  Click `File > New Project > Version Control > Git`.
+
+3.  Paste the URL from GitHub (either HTTPS or SSH).
+
+4.  Be intentional about where you tell RStudio to create this new Project on your workstation.
+
+5.  Click Create Project.
+
+<hr>
+
+**Everyone - all together now!**
+
+:sparkles: Commit :sparkles:
 
 You should be committing these files:
 
 -   `*.Rproj`
 
 -   `.gitignore`
+
+Now, in your terminal, do this:
+
+``` bash
+git branch -M main
+git push -u origin main
+```
 
 ### Create a new distill site
 
@@ -65,7 +91,7 @@ library(distill)
 Let’s start with a simple website:
 
 ``` r
-create_website(dir = ".", title = "global-distill", gh_pages = TRUE)
+create_website(dir = ".", title = "iyo-distill", gh_pages = TRUE)
 ```
 
 Now, let’s commit all these new files and push to GitHub.
@@ -90,9 +116,11 @@ Let’s look at the diff:
 
 Let’s go ahead and commit this file before we start adding to our site.
 
-You should see:
+You should now see a **Build** tab that looks like this:
 
 ![RStudio build site tab](https://rstudio-education.github.io/sharing-short-notice/images/screenshots/build-site.png)
+
+Click that :hammer: **Build Website** button, and explore your site!
 
 ### Add a postcard
 
@@ -101,58 +129,51 @@ Docs: <https://rstudio.github.io/distill/website.html#postcards>
 Now, delete your `about.Rmd` (trust me!). We’ll create a new one with the postcards package.
 
 ``` r
-create_article(file = "about",         # future name of .Rmd file
-               template = "jolla",    # name of template
-               package = "postcards")
+postcards::create_postcard(template = "jolla", file = "about.Rmd") 
 ```
 
-\[Reminder: templates\]({{&lt; ref “/02-postcards\#templates” &gt;}} “Postcards templates”)
+This time, :hammer: **Build Website** instead of knitting :yarn:.
+
+You should be able to now see your new “about” page.
 
 ### Site navigation
 
-`_site.yml`
+`_site.yml` controls this- you can add and remove pages here.
 
-### Theme
-
-Docs: <https://rstudio.github.io/distill/website.html#theming>
-
-``` r
-distill::create_theme("apreshill")
-```
-
-Remember your `_site.yml` file? Add the theme line there:
+Also note, here is your output format:
 
 ``` yaml
-name: "Alison Hill"
-title: "Personal website of Dr. Alison Hill"
-description: |
-  This is my personal website.
-output_dir: "docs"
-theme: apreshill.css
-navbar:
-  right:
-    - text: "Home"
-      href: index.html
-    - text: "About"
-      href: about.html
 output: distill::distill_article
+```
+
+And here is your output directory (i.e., when you build the site, all the HTML files go here):
+
+``` yaml
+output_dir: "docs"
 ```
 
 ### Publish a distill site
 
+We want to publish the “/docs” folder.
+
 Easy:
 
--   Push, publish to GitHub pages <https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site#creating-your-site>
+-   Publish to GitHub pages
+
+    <https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site#creating-your-site>
 
 Medium:
 
 ``` r
-> library(usethis)
-> use_github_pages(branch = "main", path = "/docs")
-✓ Setting active project to '/Users/alison/rscratch/global-distill'
-✓ Activating GitHub Pages for 'apreshill/global-distill'
+> usethis::use_github_pages(branch = "main", path = "/docs")
+✓ Setting active project to '/Users/alison/rscratch/iyo-distill'
+✓ Activating GitHub Pages for 'apreshill/iyo-distill'
 ✓ GitHub Pages is publishing from:
-● URL: 'https://apreshill.github.io/global-distill/'
+● URL: 'https://apreshill.github.io/giyo-distill/'
 ● Branch: 'main'
 ● Path: '/docs'
 ```
+
+### Share your site!
+
+Add it to your repository details :heart:
