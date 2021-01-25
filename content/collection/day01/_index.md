@@ -15,7 +15,7 @@ show_author_byline: true
 show_post_date: true
 ---
 
-## Schedule
+## Schedule Cohort A
 
 | Time (ET) | Topic                         |
 |-----------|-------------------------------|
@@ -26,6 +26,18 @@ show_post_date: true
 | 10:00     | Fin                           |
 
 See [date/time zone helper for local times](https://www.timeanddate.com/worldclock/fixedtime.html?iso=20210125T080000&p1=25).
+
+## Schedule Cohort B
+
+| Time (ET) | Topic                         |
+|-----------|-------------------------------|
+| 01:00     | Introduction                  |
+| 01:10     | [Why online?](01-github/) / [Why R Markdown?](02-postcards/) |
+| 01:50     | Break                         |
+| 02:00     | [Why R?](03-distill) / [Why blog?](04-blog)           |
+| 03:00     | Fin                           |
+
+See [date/time zone helper for local times](https://www.timeanddate.com/worldclock/fixedtime.html?iso=20210125T130000&p1=25).
 
 ## Materials
 
