@@ -4,7 +4,7 @@ weight: 2
 subtitle: "Why use R Markdown to introduce yourself online."
 excerpt: "Of course a big plus is you can put your data science and R programming skills online, but also: you can use RStudio, and you can use tools that can help you improve your real work workflows."
 date: 2021-01-25
-draft: true
+draft: false
 ---
 
 <script src="{{< blogdown/postref >}}index_files/fitvids/fitvids.min.js"></script>
