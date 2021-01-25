@@ -22,7 +22,7 @@ show_post_date: false
 | 08:00     | Introduction                  |
 | 08:10     | [Why online?](01-github/) / [Why R Markdown?](02-postcards/) |
 | 08:50     | Break                         |
-| 09:00     | Why R? / Why blog?            |
+| 09:00     | [Why R?](03-distill) / [Why blog?](04-blog)           |
 | 10:00     | Fin                           |
 
 See [date/time zone helper for local times](https://www.timeanddate.com/worldclock/fixedtime.html?iso=20210125T080000&p1=25).
