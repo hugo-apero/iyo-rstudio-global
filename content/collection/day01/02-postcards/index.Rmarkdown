@@ -14,7 +14,7 @@ knitr::opts_chunk$set(eval=FALSE)
 
 ## Why R Markdown?
 
-```{r embed-xaringan, echo=FALSE}
+```{r embed-xaringan, echo=FALSE, eval=TRUE}
 xaringanExtra::embed_xaringan(url = "/slides/02-why-rmd.html", ratio = "4:3")
 ```
 

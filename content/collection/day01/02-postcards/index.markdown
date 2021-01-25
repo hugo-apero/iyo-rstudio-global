@@ -7,33 +7,33 @@ date: 2021-01-25
 draft: true
 ---
 
-
-
+<script src="{{< blogdown/postref >}}index_files/fitvids/fitvids.min.js"></script>
 
 ## Why R Markdown?
 
+<div class="shareagain" style="min-width:300px;margin:1em auto;">
+<iframe src="/slides/02-why-rmd.html" width="400" height="300" style="border:2px solid currentColor;" loading="lazy" allowfullscreen></iframe>
+<script>fitvids('.shareagain', {players: 'iframe'});</script>
+</div>
 
+## Activity
 
-## Activity 
-
-Let's use the postcards package to make a simple postcard right now, and publish it with GitHub Pages.
+Let’s use the postcards package to make a simple postcard right now, and publish it with GitHub Pages.
 
 ### Pre-requisites
 
 First, make sure you have the latest version of the postcards package installed from CRAN:
 
-
-```r
+``` r
 install.packages("postcards")
 ```
 
-Restart your R session. If you use RStudio, use the menu item *Session > Restart R* or the associated keyboard shortcut:
+Restart your R session. If you use RStudio, use the menu item *Session &gt; Restart R* or the associated keyboard shortcut:
 
-+ <kbd>Ctrl + Shift + F10</kbd> (Windows and Linux) or
-+ <kbd>Command + Shift + F10<kbd> (Mac OS). 
+-   <kbd>Ctrl + Shift + F10</kbd> (Windows and Linux) or
+-   <kbd>Command + Shift + F10<kbd> (Mac OS).
 
-
-```r
+``` r
 packageVersion("postcards")
 [1] ‘0.2.0’
 ```
@@ -44,8 +44,7 @@ Online.
 
 ### Clone GitHub repo
 
-
-```r
+``` r
 usethis::create_from_github("https://github.com/apreshill/global-postcard.git")
 ```
 
@@ -53,38 +52,35 @@ usethis::create_from_github("https://github.com/apreshill/global-postcard.git")
 
 You should be committing these files:
 
-+ `*.Rproj`
+-   `*.Rproj`
 
-+ `.gitignore`
+-   `.gitignore`
 
-### Create a postcard {#templates}
+### Create a postcard
 
 Inside your current postcards project, use the R console:
 
-
-```r
+``` r
 library(postcards)
 ```
 
-Then you could run (wait- don't do this yet!):
+Then you could run (wait- don’t do this yet!):
 
-
-```r
+``` r
 create_postcard()
 ```
 
 But you could also pick one of four templates:
 
-1. `"jolla"` (<https://seankross.com/postcards-templates/jolla/>) [the default]
+1.  `"jolla"` (<https://seankross.com/postcards-templates/jolla/>) \[the default\]
 
-1. `"jolla-blue"` (<https://seankross.com/postcards-templates/jolla-blue/>)
+2.  `"jolla-blue"` (<https://seankross.com/postcards-templates/jolla-blue/>)
 
-1. `"trestles"` (<https://seankross.com/postcards-templates/trestles/>)
+3.  `"trestles"` (<https://seankross.com/postcards-templates/trestles/>)
 
-1. `"onofre"` (<https://seankross.com/postcards-templates/onofre/>)
+4.  `"onofre"` (<https://seankross.com/postcards-templates/onofre/>)
 
-
-```r
+``` r
 create_postcard(template = "jolla") #default
 create_postcard(template = "jolla-blue")
 create_postcard(template = "trestles")
@@ -103,19 +99,17 @@ YAML, body, name is index- this is special
 
 You should be committing these files:
 
-+ `index.Rmd`
+-   `index.Rmd`
 
-+ `*.jpg`
+-   `*.jpg`
 
-But! There is no `.html` file (yet...)
-
+But! There is no `.html` file (yet…)
 
 ### Knit the postcard
 
 Knit button or
 
-
-```r
+``` r
 rmarkdown::render("index.Rmd")
 ```
 
@@ -125,22 +119,21 @@ What is new in your Git pane?
 
 You should be committing this files:
 
-+ `index.html`
+-   `index.html`
 
 (You may get a warning in RStudio IDE that this file is too big- go right ahead)
 
 ### Publish a postcard
 
-Easy: 
+Easy:
 
-+ Push & publish to GitHub Pages: <https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site#creating-your-site>
+-   Push & publish to GitHub Pages: <https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site#creating-your-site>
 
 Medium:
 
-+ Use the `usethis` package to configure GitHub Pages from R:
+-   Use the `usethis` package to configure GitHub Pages from R:
 
-
-```r
+``` r
 > library(usethis)
 > use_github_pages(branch = "main", path = "/")
 ✓ Setting active project to '/Users/alison/rscratch/global-postcard'
@@ -154,4 +147,3 @@ Medium:
 ### Share your postcard!
 
 Add it to your repository details :heart:
-  

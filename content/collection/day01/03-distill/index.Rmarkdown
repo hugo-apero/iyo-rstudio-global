@@ -1,36 +1,52 @@
 ---
-title: "A distill site"
+title: "Why R?"
 weight: 3
-subtitle: "Using the distill & postcards packages to build a personal website with R Markdown."
+subtitle: "We still don't have a place to put all our R stuff!"
 excerpt: "Grid is the very first CSS module created specifically to solve the layout problems we’ve all been hacking our way around for as long as we’ve been making websites."
-date: 2021-01-02
-draft: false
+date: 2021-01-25
+draft: true
 ---
 
-## Pre-requisites
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(eval=FALSE)
+```
+
+
+## Why R?
+
+```{r embed-xaringan, echo=FALSE, eval=TRUE}
+xaringanExtra::embed_xaringan(url = "/slides/03-why-r.html", ratio = "4:3")
+```
+
+
+## Activity 
+### Pre-requisites
 
 First, make sure you have the latest version of the distill package installed from CRAN:
 
-    install.packages("distill")
+```{r}
+install.packages("distill")
+```
 
 Restart your R session. If you use RStudio, use the menu item *Session \> Restart R* or the associated keyboard shortcut:
 
 -   <kbd>Ctrl + Shift + F10</kbd> (Windows and Linux) or
 -   <kbd>Command + Shift + F10<kbd> (Mac OS).
 
-```{=html}
-<!-- -->
+```{r}
+packageVersion("distill")
+[1] ‘1.2’
 ```
-    packageVersion("distill")
-    [1] ‘1.2’
 
-## Create GitHub repo
+### Create GitHub repo
 
 Online.
 
-## Clone GitHub repo
+### Clone GitHub repo
 
-    usethis::create_from_github("https://github.com/apreshill/global-distill.git")
+```{r}
+usethis::create_from_github("https://github.com/apreshill/global-distill.git")
+```
 
 :sparkles: Commit & Push! :sparkles:
 
@@ -40,19 +56,23 @@ You should be committing these files:
 
 -   `.gitignore`
 
-## Create a new distill site
+### Create a new distill site
 
 Inside your current distill project, use the R console:
 
-    library(distill)
+```{r}
+library(distill)
+```
 
 Let's start with a simple website:
 
-    create_website(dir = ".", title = "global-distill", gh_pages = TRUE)
+```{r}
+create_website(dir = ".", title = "global-distill", gh_pages = TRUE)
+```
 
 Now, let's commit all these new files and push to GitHub.
 
-## Build site
+### Build site
 
 Please *close* the RStudio IDE and re-open it. Look in your Git pane, you should see a single file has changed:
 
@@ -76,13 +96,13 @@ You should see:
 
 ![RStudio build site tab](https://rstudio-education.github.io/sharing-short-notice/images/screenshots/build-site.png)
 
-## Add a postcard
+### Add a postcard
 
 Docs: <https://rstudio.github.io/distill/website.html#postcards>
 
 Now, delete your `about.Rmd` (trust me!). We'll create a new one with the postcards package.
 
-```
+```{r}
 create_article(file = "about",         # future name of .Rmd file
                template = "jolla",    # name of template
                package = "postcards")
@@ -91,15 +111,17 @@ create_article(file = "about",         # future name of .Rmd file
 [Reminder: templates]({{< ref "/02-postcards#templates" >}} "Postcards templates")
 
 
-## Site navigation
+### Site navigation
 
 `_site.yml`
 
-## Theme
+### Theme
 
 Docs: <https://rstudio.github.io/distill/website.html#theming>
 
-    distill::create_theme("apreshill")
+```{r}
+distill::create_theme("apreshill")
+```
 
 Remember your `_site.yml` file? Add the theme line there:
 
@@ -119,7 +141,7 @@ navbar:
 output: distill::distill_article
 ```
 
-## Publish a distill site
+### Publish a distill site
 
 Easy:
 
@@ -127,7 +149,8 @@ Easy:
 
 Medium:
 
-```
+```{r}
+> library(usethis)
 > use_github_pages(branch = "main", path = "/docs")
 ✓ Setting active project to '/Users/alison/rscratch/global-distill'
 ✓ Activating GitHub Pages for 'apreshill/global-distill'

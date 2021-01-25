@@ -1,0 +1,198 @@
+---
+title: "Introduce Yourself Online"
+subtitle: "A workshop @ rstudio::global(2021)"
+author: Dr. Alison Presmanes Hill
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: ["default", "css/grayscale.css", "css/fonts.css"]
+    seal: false 
+    lib_dir: libs
+    nature:
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+      highlightStyle: solarized-light
+      highlightLanguage: ["r", "css", "yaml"]
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(collapse = TRUE,
+                      fig.retina = 3)
+library(xaringanExtra)
+```
+
+```{r share-again, echo=FALSE}
+xaringanExtra::use_share_again()
+```
+
+class: title-slide, center, bottom
+background-image: url(img/question.jpg)
+background-position: 50% 20%
+background-size: 40%
+background-color: #ffffff
+
+# `r rmarkdown::metadata$title`
+
+## `r rmarkdown::metadata$subtitle`
+
+### `r rmarkdown::metadata$author`
+
+---
+class: inverse, center, middle
+
+# Why blog?
+
+
+
+---
+class: center, middle
+
+## Of digital streams, campfires, and gardens
+
+<https://tomcritchlow.com/2018/10/10/of-gardens-and-wikis/>
+
+## The garden and the stream, a technopastoral
+
+<https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/>
+
+---
+background-image: url(img/river.jpg)
+background-position: right
+background-size: contain
+class: middle
+name: stream
+
+---
+template: stream
+
+.pull-left[
+# Streams
+]
+
+---
+template: stream
+
+.pull-left[
+
+> You don’t experience the Stream by walking around it and looking at it, or following it to its end. You jump in and let it flow past. You feel the force of it hit you as things float by.
+
+> It’s not that you are passive in the Stream. You can be active. But your actions in there — your blog posts, @ mentions, forum comments — exist in a context that is collapsed down to a simple timeline of events that together form a narrative.
+
+> Mike Caulfield
+]
+
+---
+template: stream
+
+.pull-left[
+
+> Streams - mostly Twitter for me, this is where fast twitch information discovery happens. The firehose of content. But with an undercurrent of creating new connections.
+
+> Tom Critchlow
+]
+
+---
+name: campfire
+background-image: url(img/campfire.jpg)
+background-position: right
+background-size: 50%
+class: middle
+
+---
+template: campfire
+
+.pull-left[
+# Campfires
+]
+
+---
+template: campfire
+
+.pull-left[
+
+> "Campfires - mostly blogging for me, though I know some folks gather around private slack groups too. My blog functions as a digital campfire (or a series of campfires) that are slower burn but fade relatively quickly over the timeframe of years. Connection forming, thinking out loud, self referencing and connection forming. This builds muscle, helps me articulate my thinking and is the connective tissue between ideas, people and more. While I’m not a daily blogger I’ve been blogging on and off for 10+ years."
+
+> Tom Critchlow
+]
+
+---
+name: garden
+background-image: url(img/garden.jpg)
+background-position: right
+background-size: contain
+class: middle
+background-color: #f2f0ef
+
+
+---
+template: garden
+
+.pull-left[
+# Gardens
+]
+
+---
+template: garden
+
+.pull-left[
+
+> Every walk through the garden creates new paths, new meanings, and when we add things to the garden we add them in a way that allows many future, unpredicted relationships.
+
+> Mike Caulfield
+]
+
+---
+background-image: url(img/garden-main.png)
+background-position: center middle
+background-size: 30%
+class: bottom, center
+background-color: #ffffff
+
+## A Brief History & Ethos of the Digital Garden
+
+<https://maggieappleton.com/garden-history>
+
+
+---
+background-image: url(img/digital-garden.png)
+background-position: center middle
+background-size: 70%
+class: bottom, center
+background-color: #ffffff
+
+
+<https://maggieappleton.com/garden-history>
+
+
+---
+template: garden
+
+.pull-left[
+
+> Gardens are by nature non-homogenous. No two gardens are alike. Even if you plant the same plants as your neighbours, you plant them in a different arrangement.
+
+> The point of the garden is that's it's a personal playspace. You organise the garden around the ideas and mediums that are particular to you.
+
+> A large part of gardening is claiming a small patch of the web for yourself, one you fully own and control.
+
+> Maggie Appleton
+
+]
+
+---
+class: activity, center, middle
+
+# `r emo::ji("stopwatch")`
+
+## To RStudio!
+
+Let’s go to our breakout rooms and *choose your own adventure*!
+
+`r emo::ji("clock")` 10 minutes
