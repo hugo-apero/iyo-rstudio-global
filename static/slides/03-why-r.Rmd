@@ -50,10 +50,20 @@ class: inverse, center, middle
 # Why R?
 
 ---
+class: center, middle
 
-big distill demo
+# Why R ?
 
-c/p from ssn + tip
+
+---
+class: center, bottom, inverse
+background-image: url(https://iyo-rstudio-global.netlify.app/package/distill/featured-hex.png)
+background-size: 25%
+background-position: center middle
+
+
+<https://iyo-rstudio-global.netlify.app/package/distill/>
+
 ---
 class: activity, center, middle
 
