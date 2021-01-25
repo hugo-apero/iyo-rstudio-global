@@ -1,5 +1,6 @@
 ---
 title: "Day 01"
+draft: true
 layout: single-series # list, list-sidebar, single-series
 show_post_thumbnail: true
 weight: 2
