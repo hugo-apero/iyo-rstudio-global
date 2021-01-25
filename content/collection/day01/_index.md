@@ -19,7 +19,7 @@ show_post_date: false
 | Time (ET) | Topic                         |
 |-----------|-------------------------------|
 | 08:00     | Introduction                  |
-| 08:10     | [Why online? / Why R Markdown?](01-github/) |
+| 08:10     | [Why online?](01-github/) / [Why R Markdown?](02-postcards/) |
 | 08:50     | Break                         |
 | 09:00     | Why R? / Why blog?            |
 | 10:00     | Fin                           |

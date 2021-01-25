@@ -67,12 +67,12 @@ Use RStudio IDE
 Use the tools you already use (or should be using- `r emo::ji("wink")`) for your work
 
 ---
+class: inverse, center, middle
 
-## What is R Markdown?
+## What *is* R Markdown?
 
 ---
 
-.right-column[
 
 # What is R Markdown?
 
@@ -91,11 +91,9 @@ Use the tools you already use (or should be using- `r emo::ji("wink")`) for your
 
 1. Wizardry.
 
-]
 
 ---
 
-.right-column[
 
 # What is R Markdown?
 
@@ -113,7 +111,126 @@ Use the tools you already use (or should be using- `r emo::ji("wink")`) for your
 
 1. Wizardry. (`r emo::ji("wizard")`)
 
+---
+class: center
+background-image: url("img/rmd_flowchart.png")
+background-size: contain
+background-color: #f6f6f6
+
+## What is R Markdown?
+
+---
+background-image: url(img/rmarkdown_hedgehog_wide.png)
+background-size: contain
+background-position: middle, center
+
+
+---
+background-image: url(img/Whisper.jpg)
+background-size: contain
+
+<div class="word-bubble" style="
+  position: absolute; 
+  text-align: center;
+  width: 50%; 
+  top: 100px;
+  left: 310px;
+  font-size: 1.3em;
+"> We need to talk about <br> publishing. </div>
+
+---
+background-image: url(img/rmd-buddy.jpg)
+background-size: contain
+background-size: 50%
+background-color: #ffffff
+
+---
+background-image: url(img/rmd-buddy-help.jpg)
+background-size: contain
+background-size: 50%
+background-color: #ffffff
+
+---
+background-image: url(img/short1.jpg)
+background-size: contain
+background-color: #ffffff
+
+---
+background-image: url(img/short2.jpg)
+background-size: contain
+background-color: #ffffff
+
+---
+background-image: url(img/short3.jpg)
+background-size: contain
+background-color: #ffffff
+
+---
+class: inverse, center, middle
+
+## Start with GitHub Pages
+
+---
+class: middle, center
+
+.pull-left[
+## Repo
+
+`https://github.com/apreshill/iyo`
+
 ]
+
+.pull-right[
+## Link
+
+`https://apreshill.github.io/iyo`
+
+]
+
+---
+class: middle, center
+
+.pull-left[
+## Repo
+
+`https://github.com/<user>/<repo>`
+
+]
+
+.pull-right[
+## Link
+
+`https://<user>.github.io/<repo>`
+
+]
+
+---
+background-image: url(img/index.jpg)
+background-size: contain
+background-size: 50%
+background-color: #ffffff
+
+
+---
+class: middle, center
+
+.left-column[
+## Index file link
+
+
+## Other file link
+
+]
+
+.right-column[
+
+<br>
+`https://<user>.github.io/<repo>`
+<br><br><br>
+`https://github.com/<user>/<repo>/<.html>`
+
+]
+
 
 
 

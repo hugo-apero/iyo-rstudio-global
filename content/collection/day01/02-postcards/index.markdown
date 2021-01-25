@@ -3,7 +3,8 @@ title: "Why R Markdown?"
 weight: 2
 subtitle: "Why use R Markdown to introduce yourself online."
 excerpt: "Of course a big plus is you can put your data science and R programming skills online, but also: you can use RStudio, and you can use tools that can help you improve your real work workflows."
-date: 2021-01-02
+date: 2021-01-25
+draft: true
 ---
 
 
@@ -14,6 +15,8 @@ date: 2021-01-02
 
 
 ## Activity 
+
+Let's use the postcards package to make a simple postcard right now, and publish it with GitHub Pages.
 
 ### Pre-requisites
 
@@ -130,13 +133,15 @@ You should be committing this files:
 
 Easy: 
 
-+ Push, publish to GitHub pages
-https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site#creating-your-site
++ Push & publish to GitHub Pages: <https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site#creating-your-site>
 
 Medium:
 
++ Use the `usethis` package to configure GitHub Pages from R:
+
 
 ```r
+> library(usethis)
 > use_github_pages(branch = "main", path = "/")
 ✓ Setting active project to '/Users/alison/rscratch/global-postcard'
 ✓ Activating GitHub Pages for 'apreshill/global-postcard'
@@ -148,5 +153,5 @@ Medium:
 
 ### Share your postcard!
 
-Add it to your repository details
+Add it to your repository details :heart:
   

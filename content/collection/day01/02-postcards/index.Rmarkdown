@@ -15,12 +15,12 @@ knitr::opts_chunk$set(eval=FALSE)
 ## Why R Markdown?
 
 ```{r embed-xaringan, echo=FALSE}
-xaringanExtra::embed_xaringan(url = "/slides/01-why-online.html", ratio = "4:3")
+xaringanExtra::embed_xaringan(url = "/slides/02-why-rmd.html", ratio = "4:3")
 ```
 
 ## Activity 
 
-Let's use the postcards package to make a simple postcard right now. a postcard right now (GH pages), breakout rooms
+Let's use the postcards package to make a simple postcard right now, and publish it with GitHub Pages.
 
 ### Pre-requisites
 
@@ -130,12 +130,14 @@ You should be committing this files:
 
 Easy: 
 
-+ Push, publish to GitHub pages
-https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site#creating-your-site
++ Push & publish to GitHub Pages: <https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site#creating-your-site>
 
 Medium:
 
++ Use the `usethis` package to configure GitHub Pages from R:
+
 ```{r}
+> library(usethis)
 > use_github_pages(branch = "main", path = "/")
 ✓ Setting active project to '/Users/alison/rscratch/global-postcard'
 ✓ Activating GitHub Pages for 'apreshill/global-postcard'
@@ -147,5 +149,5 @@ Medium:
 
 ### Share your postcard!
 
-Add it to your repository details
+Add it to your repository details :heart:
   
