@@ -1,13 +1,37 @@
 ---
-title: "Using blogdown"
-weight: 2
+title: "Why Hugo Apéro?"
+weight: 3
 subtitle: ""
 excerpt: "Grid is the very first CSS module created specifically to solve the layout problems we’ve all been hacking our way around for as long as we’ve been making websites."
-date: 2021-01-01
+date: 2021-01-26
+draft: true
+links:
+- icon: campground
+  icon_pack: fas
+  name: slides
+  url: "/slides/07-why-apero.html"
+- icon: hiking
+  icon_pack: fas
+  name: activity
+  url: "collection/day02/03-apero/#activity"
 ---
 
+## Why Hugo Apéro?
 
-## Pre-requisites
+```{r embed-xaringan, echo=FALSE}
+xaringanExtra::embed_xaringan(url = "/slides/07-why-apero.html", ratio = "16:9")
+```
+
+
+
+## Activity 
+
+TIME: `r emo::ji("stopwatch")` 10 minutes
+
+here bot
+
+
+### Pre-requisites
 
 First, make sure you have the latest version of the blogdown package installed from CRAN:
 
@@ -25,11 +49,11 @@ packageVersion("blogdown")
 [1] ‘1.0’
 ```
 
-## Create GitHub repo
+### Create GitHub repo
 
 Online.
 
-## Clone GitHub repo
+### Clone GitHub repo
 
 ```
 usethis::create_from_github("https://github.com/apreshill/global-blogdown.git")
@@ -43,7 +67,7 @@ You should be committing these files:
 
 + `.gitignore`
 
-## Create a new blogdown site
+### Create a new blogdown site
 
 We'll be using a new Hugo theme that I made for us! 
 
@@ -59,7 +83,7 @@ Let's start with making the website with the theme:
 new_site(dir = ".", theme = "apreshill/blogophonic")
 ```
 
-## Configure your site
+### Configure your site
 
 The first stop on this tour of your site is the `config.yaml` file.
 

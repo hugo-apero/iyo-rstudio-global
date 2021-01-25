@@ -1,0 +1,72 @@
+---
+title: "Introduce Yourself Online"
+subtitle: "A workshop @ rstudio::global(2021)"
+author: Dr. Alison Presmanes Hill
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: ["default", "css/grayscale.css", "css/fonts.css"]
+    seal: false 
+    lib_dir: libs
+    nature:
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+      highlightStyle: solarized-light
+      highlightLanguage: ["r", "css", "yaml"]
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(collapse = TRUE,
+                      fig.retina = 3)
+library(xaringanExtra)
+```
+
+```{r share-again, echo=FALSE}
+xaringanExtra::use_share_again()
+```
+
+class: title-slide, center, bottom
+background-image: url(img/server.jpg)
+background-position: 50% 20%
+background-size: 50%
+background-color: #ffffff
+
+# `r rmarkdown::metadata$title`
+
+## `r rmarkdown::metadata$subtitle`
+
+### `r rmarkdown::metadata$author`
+
+---
+class: middle, center
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Build a website with HTML and CSS that somebody else wrote. <a href="https://t.co/ya2NWe2rff">https://t.co/ya2NWe2rff</a></p>&mdash; Alison Presmanes Hill (@apreshill) <a href="https://twitter.com/apreshill/status/1280635175538311168?ref_src=twsrc%5Etfw">July 7, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+---
+class: inverse, center, middle
+
+# Why Hugo Apéro?
+
+---
+class: center, middle
+
+# Why Hugo Apéro?
+
+
+---
+class: activity, center, middle
+
+# `r emo::ji("stopwatch")`
+
+## To your site!
+
+Add data/social.yaml, config.toml, and do homepage + about page
+
+`r emo::ji("clock")` 10 minutes

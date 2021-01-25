@@ -1,0 +1,83 @@
+---
+title: "Introduce Yourself Online"
+subtitle: "A workshop @ rstudio::global(2021)"
+author: Dr. Alison Presmanes Hill
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: ["default", "css/grayscale.css", "css/fonts.css"]
+    seal: false 
+    lib_dir: libs
+    nature:
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+      highlightStyle: solarized-light
+      highlightLanguage: ["r", "css", "yaml"]
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(collapse = TRUE,
+                      fig.retina = 3)
+library(xaringanExtra)
+```
+
+```{r share-again, echo=FALSE}
+xaringanExtra::use_share_again()
+```
+
+class: title-slide, center, bottom
+background-image: url(img/gopher-hero.svg)
+background-position: 50% 20%
+background-size: 25%
+background-color: #ffffff
+
+# `r rmarkdown::metadata$title`
+
+## `r rmarkdown::metadata$subtitle`
+
+### `r rmarkdown::metadata$author`
+
+---
+class: inverse, center, middle
+
+# Why Hugo?
+
+---
+class: center, middle
+
+# Why Hugo?
+
+--
+
+Markdown first
+
+--
+
+Content organization (subfolders!)
+
+--
+
+Layout flexibility
+
+--
+
+Multilingual sites
+
+
+---
+class: activity, center, middle
+
+# `r emo::ji("stopwatch")`
+
+## To your site!
+
+Orient yourself, remove the here bot
+
+`r emo::ji("clock")` 10 minutes

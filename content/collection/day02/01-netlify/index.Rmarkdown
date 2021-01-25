@@ -1,0 +1,31 @@
+---
+title: "Why Netlify?"
+author: Alison Hill
+weight: 1
+subtitle: "Using Netlify to build websites in the cloud."
+date: 2021-01-26
+draft: true
+links:
+- icon: campground
+  icon_pack: fas
+  name: slides
+  url: "/slides/05-why-netlify.html"
+- icon: hiking
+  icon_pack: fas
+  name: activity
+  url: "collection/day02/01-netlify/#activity"
+---
+
+
+## Why Netlify?
+
+```{r embed-xaringan, echo=FALSE}
+xaringanExtra::embed_xaringan(url = "/slides/05-why-netlify.html", ratio = "16:9")
+```
+
+
+
+## Activity 
+
+TIME: `r emo::ji("stopwatch")` 10 minutes
+

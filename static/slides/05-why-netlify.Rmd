@@ -1,0 +1,129 @@
+---
+title: "Introduce Yourself Online"
+subtitle: "A workshop @ rstudio::global(2021)"
+author: Dr. Alison Presmanes Hill
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: ["default", "css/grayscale.css", "css/fonts.css"]
+    seal: false 
+    lib_dir: libs
+    nature:
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+      highlightStyle: solarized-light
+      highlightLanguage: ["r", "css", "yaml"]
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(collapse = TRUE,
+                      fig.retina = 3)
+library(xaringanExtra)
+```
+
+```{r share-again, echo=FALSE}
+xaringanExtra::use_share_again()
+```
+
+class: title-slide, center, bottom
+background-image: url(img/server.jpg)
+background-position: 50% 20%
+background-size: 50%
+background-color: #ffffff
+
+# `r rmarkdown::metadata$title`
+
+## `r rmarkdown::metadata$subtitle`
+
+### `r rmarkdown::metadata$author`
+
+---
+class: inverse, center, middle
+
+# Mood
+
+---
+background-image: url(img/mr-rogers.jpg)
+background-size: contain
+class: bottom, center
+
+
+<!--https://twitter.com/jlengstorf/status/1334594454347415554?s=20-->
+
+---
+background-image: url("img/server.jpg")
+background-size: 80%
+background-position: bottom
+class: center, top
+background-color: #ffffff
+
+# What is next?
+
+
+--
+<img src="https://github.com/nolistic.png" style="
+  position: absolute; 
+  width: 10%; 
+  top: 140px;
+  right: 60px;
+  border-radius: 50%;
+">
+
+???
+
+which is basically a big computer in the clouds
+
+hat/tip to Heather Nolis for that analogy.
+
+--
+<img src="img/Netlify.png" style="
+  position: absolute; 
+  width: 23%; 
+  top: 218px;
+  right: 301px;
+">
+
+---
+class: inverse, center, middle
+
+# Why Netlify?
+
+---
+class: center, middle
+
+# Why Netlify?
+
+--
+
+Continuous deployment
+
+--
+
+Speaks Hugo (but not R)
+
+--
+
+FEATURES (PR deploy previews / branch deploys / rollbacks)
+
+---
+
+---
+class: activity, center, middle
+
+# `r emo::ji("stopwatch")`
+
+## To Netlify!
+
+Go to this repo:
+<https://github.com/apreshill/iyo-apero>
+
+Click on the "Deploy to Netlify" button `r emo::ji("rocket")`
+
+`r emo::ji("clock")` 10 minutes

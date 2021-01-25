@@ -1,0 +1,33 @@
+---
+title: "Why Hugo?"
+author: Alison Hill
+weight: 2
+subtitle: "Principles: everything is a page, markdown-first."
+date: 2021-01-26
+draft: true
+links:
+- icon: campground
+  icon_pack: fas
+  name: slides
+  url: "/slides/06-why-hugo.html"
+- icon: hiking
+  icon_pack: fas
+  name: activity
+  url: "collection/day02/02-hugo/#activity"
+---
+
+
+## Why Hugo?
+
+```{r embed-xaringan, echo=FALSE}
+xaringanExtra::embed_xaringan(url = "/slides/06-why-hugo.html", ratio = "16:9")
+```
+
+
+
+## Activity 
+
+TIME: `r emo::ji("stopwatch")` 10 minutes
+
+here bot
+
