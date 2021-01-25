@@ -132,7 +132,7 @@ class: activity, center, middle
 
 # `r emo::ji("stopwatch")`
 
-## To RStudio!
+## To GitHub.com!
 
 Let’s go to our breakout rooms and make our GitHub name tags right now
 

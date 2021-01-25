@@ -13,6 +13,8 @@ options(
   blogdown.knit.on_save = FALSE,
   # full markdown mode
   blogdown.method = "markdown",
+  # don't serve on knit
+  blogdown.knit.serve_site = FALSE,
   # so the live preview actually live previews
   blogdown.hugo.server = c('--disableFastRender', '-D', '-F', '--navigateToChanged')
 )
