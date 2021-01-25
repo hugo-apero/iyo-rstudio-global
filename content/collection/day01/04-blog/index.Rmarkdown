@@ -1,10 +1,20 @@
 ---
 title: "Why blog?"
+author: Alison Hill
 weight: 4
 subtitle: "Of digital streams, campfires, and gardens."
-excerpt: "Grid is the very first CSS module created specifically to solve the layout problems we’ve all been hacking our way around for as long as we’ve been making websites."
+excerpt: ""
 date: 2021-01-25
 draft: false
+links:
+- icon: campground
+  icon_pack: fas
+  name: slides
+  url: "/slides/04-why-blog.html"
+- icon: hiking
+  icon_pack: fas
+  name: activity
+  url: "collection/day01/04-blog/#activity"
 ---
 
 ```{r setup, include=FALSE}
@@ -13,8 +23,6 @@ knitr::opts_chunk$set(eval=FALSE)
 
 
 ## Why blog?
-
-[Slides](/slides/04-why-blog.html)
 
 ```{r embed-xaringan, echo=FALSE, eval=TRUE}
 xaringanExtra::embed_xaringan(url = "/slides/04-why-blog.html", ratio = "16:9")

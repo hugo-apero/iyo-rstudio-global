@@ -1,24 +1,34 @@
 ---
 title: "Why R Markdown?"
+author: Alison Hill
 weight: 2
 subtitle: "Why use R Markdown to introduce yourself online."
 excerpt: "Of course a big plus is you can put your data science and R programming skills online, but also: you can use RStudio, and you can use tools that can help you improve your real work workflows."
 date: 2021-01-25
 draft: false
+links:
+- icon: campground
+  icon_pack: fas
+  name: slides
+  url: "/slides/02-why-rmd.html"
+- icon: hiking
+  icon_pack: fas
+  name: activity
+  url: "collection/day01/02-postcards/#activity"
 ---
 
 <script src="{{< blogdown/postref >}}index_files/fitvids/fitvids.min.js"></script>
 
 ## Why R Markdown?
 
-[Slides](/slides/02-why-rmd.html)
-
 <div class="shareagain" style="min-width:300px;margin:1em auto;">
 <iframe src="/slides/02-why-rmd.html" width="1600" height="900" style="border:2px solid currentColor;" loading="lazy" allowfullscreen></iframe>
 <script>fitvids('.shareagain', {players: 'iframe'});</script>
 </div>
 
-## Activity (⏱ 10 minutes)
+## Activity
+
+TIME: ⏱ 10 minutes
 
 Let’s use the postcards package to make a simple, single “about” page right now, and publish it with GitHub Pages.
 

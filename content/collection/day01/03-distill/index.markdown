@@ -1,24 +1,34 @@
 ---
 title: "Why R?"
+author: Alison Hill
 weight: 3
 subtitle: "We still don't have a place to put all our R stuff!"
-excerpt: "Grid is the very first CSS module created specifically to solve the layout problems we’ve all been hacking our way around for as long as we’ve been making websites."
+excerpt: ""
 date: 2021-01-25
 draft: false
+links:
+- icon: campground
+  icon_pack: fas
+  name: slides
+  url: "/slides/03-why-r.html"
+- icon: hiking
+  icon_pack: fas
+  name: activity
+  url: "collection/day01/03-distill/#activity"
 ---
 
 <script src="{{< blogdown/postref >}}index_files/fitvids/fitvids.min.js"></script>
 
 ## Why R?
 
-[Slides](/slides/03-why-r.html)
-
 <div class="shareagain" style="min-width:300px;margin:1em auto;">
 <iframe src="/slides/03-why-r.html" width="1600" height="900" style="border:2px solid currentColor;" loading="lazy" allowfullscreen></iframe>
 <script>fitvids('.shareagain', {players: 'iframe'});</script>
 </div>
 
-## Activity (⏱ 10 minutes)
+## Activity
+
+TIME: ⏱ 10 minutes
 
 ### Pre-requisites
 

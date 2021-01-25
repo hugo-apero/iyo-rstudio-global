@@ -1,17 +1,25 @@
 ---
 title: "Why blog?"
+author: Alison Hill
 weight: 4
 subtitle: "Of digital streams, campfires, and gardens."
-excerpt: "Grid is the very first CSS module created specifically to solve the layout problems we’ve all been hacking our way around for as long as we’ve been making websites."
+excerpt: ""
 date: 2021-01-25
 draft: false
+links:
+- icon: campground
+  icon_pack: fas
+  name: slides
+  url: "/slides/04-why-blog.html"
+- icon: hiking
+  icon_pack: fas
+  name: activity
+  url: "collection/day01/04-blog/#activity"
 ---
 
 <script src="{{< blogdown/postref >}}index_files/fitvids/fitvids.min.js"></script>
 
 ## Why blog?
-
-[Slides](/slides/04-why-blog.html)
 
 <div class="shareagain" style="min-width:300px;margin:1em auto;">
 <iframe src="/slides/04-why-blog.html" width="1600" height="900" style="border:2px solid currentColor;" loading="lazy" allowfullscreen></iframe>

@@ -1,10 +1,20 @@
 ---
 title: "Why R?"
+author: Alison Hill
 weight: 3
 subtitle: "We still don't have a place to put all our R stuff!"
-excerpt: "Grid is the very first CSS module created specifically to solve the layout problems we’ve all been hacking our way around for as long as we’ve been making websites."
+excerpt: ""
 date: 2021-01-25
 draft: false
+links:
+- icon: campground
+  icon_pack: fas
+  name: slides
+  url: "/slides/03-why-r.html"
+- icon: hiking
+  icon_pack: fas
+  name: activity
+  url: "collection/day01/03-distill/#activity"
 ---
 
 ```{r setup, include=FALSE}
@@ -14,13 +24,13 @@ knitr::opts_chunk$set(eval=FALSE)
 
 ## Why R?
 
-[Slides](/slides/03-why-r.html)
-
 ```{r embed-xaringan, echo=FALSE, eval=TRUE}
 xaringanExtra::embed_xaringan(url = "/slides/03-why-r.html", ratio = "16:9")
 ```
 
-## Activity (`r emo::ji("stopwatch")` 10 minutes) 
+## Activity 
+
+TIME: `r emo::ji("stopwatch")` 10 minutes 
 
 ### Pre-requisites
 
