@@ -15,7 +15,7 @@ show_author_byline: true
 show_post_date: true
 ---
 
-## Schedule Cohort A
+## Schedule / Session A
 
 | Time (ET) | Topic                         |
 |-----------|-------------------------------|
@@ -27,7 +27,7 @@ show_post_date: true
 
 See [date/time zone helper for local times](https://www.timeanddate.com/worldclock/fixedtime.html?iso=20210125T080000&p1=25).
 
-## Schedule Cohort B
+## Schedule / Session B
 
 | Time (ET) | Topic                         |
 |-----------|-------------------------------|
