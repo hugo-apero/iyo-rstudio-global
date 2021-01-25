@@ -48,6 +48,10 @@ install.packages("postcards")
 
 + [Beautiful distill portfolio by Ijeamaka Anyene](https://ijeamaka-anyene.netlify.app/portfolio.html)
 
++ [A personal distill blog by Miha Gazvoda](https://mihagazvoda.com/)
+
++ [A personal distill blog by Danielle Brantley](https://datascidani.com/posts/2020-12-14-same-content-new-look/)
+
 + [Made-for-each-other: postcards + distill](https://alison.rbind.io/post/2020-12-22-postcards-distill/) by yours truly
 
 + [Building a distill website](https://lisalendway.netlify.app/posts/2020-12-09-buildingdistill/) by Dr. Lisa Lendway
