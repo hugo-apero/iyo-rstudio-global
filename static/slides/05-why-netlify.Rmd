@@ -26,6 +26,8 @@ options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(collapse = TRUE,
                       fig.retina = 3)
 library(xaringanExtra)
+library(magick)
+library(purrr)
 ```
 
 ```{r share-again, echo=FALSE}
@@ -112,19 +114,82 @@ Speaks Hugo (but not R)
 
 FEATURES (PR deploy previews / branch deploys / rollbacks)
 
+---
+class: center, middle
+
+# `r emo::ji("megaphone")` Speaks Hugo
 
 ---
-class: activity, center, middle
+class: middle, center
 
-# `r emo::ji("stopwatch")`
+```{r echo = FALSE, out.width="80%"}
+list_png <- c("img/blogdown-build/Slide1.png",
+              "img/blogdown-build/Slide2.png",
+              "img/blogdown-build/Slide3.png")
 
-## To your site!
+list_png %>% 
+  map(image_read) %>% # reads each path file
+  image_join() %>% # joins image
+  image_scale("2000") %>% 
+  image_animate(fps = .5)  # animates, can opt for number of loops
+```
+
+---
+class: middle, center
+```{r echo = FALSE, out.width = "80%"}
+list_png <- c("img/blogdown-build/Slide3.png",
+              "img/blogdown-build/Slide4.png",
+              "img/blogdown-build/Slide5.png")
+
+list_png %>% 
+  map(image_read) %>% # reads each path file
+  image_join() %>% # joins image
+  image_scale("2000") %>% 
+  image_animate(fps = .5)  # animates, can opt for number of loops
+```
+
+---
+class: middle, center
+
+```{r echo = FALSE, out.width = "80%"}
+list_png <- c("img/blogdown-build/Slide6.png",
+              "img/blogdown-build/Slide7.png",
+              "img/blogdown-build/Slide8.png")
+
+list_png %>% 
+  map(image_read) %>% # reads each path file
+  image_join() %>% # joins image
+  image_scale("2000") %>% 
+  image_animate(fps = .5)  # animates, can opt for number of loops
+```
+
+
+---
+class: inverse, center, middle
+
+## Whither GitHub Pages?
+
+--
+
+If you `build_site()`, you can commit + push your `public/` folder to use GitHub Pages.
+
+---
+class: inverse, center, middle
+
+# Why Netlify?
 
 Go to this repo:
 <https://github.com/apreshill/iyo-apero>
 
 Click on the "Deploy to Netlify" button `r emo::ji("rocket")`
 
-What next? It's a file scavenger hunt.
+---
+class: activity, center, middle
+
+# `r emo::ji("stopwatch")`
+
+## To your new site!
+
+Let's go on a file scavenger hunt.
 
 `r emo::ji("clock")` 10 minutes
