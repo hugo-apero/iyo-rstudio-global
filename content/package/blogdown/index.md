@@ -25,7 +25,7 @@ links:
 - icon: bullhorn
   icon_pack: fas
   name: latest release
-  url: ""
+  url: https://blog.rstudio.com/2021/01/18/blogdown-v1.0/
 ---
 
 The goal of the blogdown package is to provide a powerful and infinitely customizable website output format for R Markdown. You may install it from CRAN:
