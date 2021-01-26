@@ -44,8 +44,8 @@ We just created:
 
 + a full blogdown project...
 + containing a Hugo site...
-+ deployed to Netlify
-+ in a remote repository on GitHub. 
++ deployed to Netlify...
++ in a remote repository on YOUR GitHub (i.e., `https://github.com/<you>/iyo-apero`; you may have changed the repo name after clicking on the "Deploy to Netlify" button). 
 
 To make a local copy on our computer that we can actually work in, we’ll clone that repository into a new RStudio project. This will allow us to sync between the two locations: your remote (the one you see on github.com, and the one continuously deployed by Netlify) and your local desktop. 
 
