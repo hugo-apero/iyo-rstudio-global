@@ -33,9 +33,9 @@ xaringanExtra::use_share_again()
 ```
 
 class: title-slide, center, bottom
-background-image: url(img/server.jpg)
+background-image: url(img/stars.jpg)
 background-position: 50% 20%
-background-size: 50%
+background-size: 30%
 background-color: #ffffff
 
 # `r rmarkdown::metadata$title`
@@ -50,7 +50,7 @@ class: middle, center
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Build a website with HTML and CSS that somebody else wrote. <a href="https://t.co/ya2NWe2rff">https://t.co/ya2NWe2rff</a></p>&mdash; Alison Presmanes Hill (@apreshill) <a href="https://twitter.com/apreshill/status/1280635175538311168?ref_src=twsrc%5Etfw">July 7, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 ---
-class: inverse, center, middle
+class: inverse, middle, center
 
 # Why Hugo Apéro?
 
@@ -67,6 +67,6 @@ class: activity, center, middle
 
 ## To your site!
 
-Add data/social.yaml, config.toml, and do homepage + about page
+Make it yours: customize the home + about pages
 
 `r emo::ji("clock")` 10 minutes

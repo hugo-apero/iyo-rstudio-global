@@ -70,14 +70,15 @@ Layout flexibility
 
 Multilingual sites
 
+--
+
+Powerful taxonomies
 
 ---
 class: activity, center, middle
 
 # `r emo::ji("stopwatch")`
 
-## To your site!
-
-Orient yourself, remove the here bot
+## To configure your new Hugo site!
 
 `r emo::ji("clock")` 10 minutes
