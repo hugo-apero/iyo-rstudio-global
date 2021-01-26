@@ -1,11 +1,8 @@
 ---
 title: "Why R Markdown?"
-author: Alison Hill
 weight: 2
 subtitle: "Why use R Markdown to introduce yourself online."
 excerpt: "Of course a big plus is you can put your data science and R programming skills online, but also: you can use RStudio, and you can use tools that can help you improve your real work workflows."
-date: 2021-01-25
-draft: false
 links:
 - icon: campground
   icon_pack: fas

@@ -1,15 +1,14 @@
 ---
 title: "Day 01"
-draft: false
-layout: single-series # list, list-sidebar, single-series
-show_post_thumbnail: true
 weight: 2
-date: 2021-01-25
 subtitle: "All about website-making with R Markdown"
 description: |
   Our first day together is all about building and publishing.
-excerpt: 
-author: Alison Hill
+cascade:
+  draft: false
+  # list or single layouts are possible
+  layout: single-series # list, list-sidebar, single-series
+  date: 2021-01-25
 ---
 
 ## Schedule / Session A

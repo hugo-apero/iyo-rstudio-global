@@ -115,6 +115,13 @@ Speaks Hugo (but not R)
 FEATURES (PR deploy previews / branch deploys / rollbacks)
 
 ---
+class: inverse, middle
+
+> Continuous deployment works by connecting a Git repository to a Netlify site and keeping the two in sync.
+
+> &mdash; [Netlify docs](https://docs.netlify.com/site-deploys/create-deploys/)
+
+---
 class: center, middle
 
 # `r emo::ji("megaphone")` Speaks Hugo

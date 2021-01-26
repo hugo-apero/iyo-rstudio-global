@@ -15,9 +15,9 @@ cascade:
   layout: single-series 
   show_author_byline: true
   show_post_date: true
+  author: Alison Hill
   sidebar:
     title: "Introduce Yourself Online"
-    author: Alison Hill
     description: |
       A two-day workshop for rstudio::global(2021) diversity scholars. 
       This section contains the materials for this workshop.

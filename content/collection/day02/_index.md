@@ -2,14 +2,15 @@
 title: "Day 02"
 # list or single layouts are possible
 layout: single-series # list, list-sidebar, single-series
-show_post_thumbnail: true
 weight: 3
-date: 2021-01-26
 subtitle: "Up & running with blogdown, GitHub, and Netlify."
 description: |
-  day two
-excerpt: 
-author: Alison Hill
+  Our second day together is all about blogdown.
+cascade:
+  draft: false
+  # list or single layouts are possible
+  layout: single-series # list, list-sidebar, single-series
+  date: 2021-01-26
 ---
 
 ## Schedule / Session A

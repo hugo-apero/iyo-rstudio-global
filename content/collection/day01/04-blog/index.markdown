@@ -1,11 +1,7 @@
 ---
 title: "Why blog?"
-author: Alison Hill
 weight: 4
 subtitle: "Of digital streams, campfires, and gardens."
-excerpt: ""
-date: 2021-01-25
-draft: false
 links:
 - icon: campground
   icon_pack: fas

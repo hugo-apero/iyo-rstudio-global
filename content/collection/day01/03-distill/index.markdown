@@ -1,11 +1,7 @@
 ---
 title: "Why R?"
-author: Alison Hill
 weight: 3
 subtitle: "We still don't have a place to put all our R stuff!"
-excerpt: ""
-date: 2021-01-25
-draft: false
 links:
 - icon: campground
   icon_pack: fas
