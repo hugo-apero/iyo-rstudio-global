@@ -50,7 +50,7 @@ We just created:
 To make a local copy on our computer that we can actually work in, we’ll clone that repository into a new RStudio project. This will allow us to sync between the two locations: your remote (the one you see on github.com, and the one continuously deployed by Netlify) and your local desktop. Do this (requires a GitHub personal access token):
 
 ```{r}
-usethis::create_from_github("apreshill/iyo-distill", 
+usethis::create_from_github("apreshill/iyo-apero", 
                             destdir = "/Users/alison/rscratch")
 ```
 

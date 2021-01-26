@@ -29,6 +29,8 @@ TIME: `r emo::ji("stopwatch")` 10 minutes
 
 Choose your own adventure! You may:
 
-1. Run through the blogdown checks
+1. Run through the blogdown checks, following: <https://alison.rbind.io/post/2020-12-27-blogdown-checks/>
+
+1. Explore the blog posts (each post is a leaf bundle). Feel free to add code or other content to these posts. Try out panelsets! 
 
 

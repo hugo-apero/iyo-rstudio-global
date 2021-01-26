@@ -54,6 +54,21 @@ class: center, middle
 
 # Why blogdown?
 
+--
+
+R!
+
+--
+
+Checking functions `r emo::ji("heavy_check_mark")`
+
+--
+
+Hugo versioning system
+
+--
+
+`.Rprofile` for custom experience 
 
 ---
 class: activity, center, middle
@@ -62,6 +77,6 @@ class: activity, center, middle
 
 ## To your site!
 
-run checks, markdown mode, .Rprofile options
+Run checks, or add/edit content.
 
 `r emo::ji("clock")` 10 minutes

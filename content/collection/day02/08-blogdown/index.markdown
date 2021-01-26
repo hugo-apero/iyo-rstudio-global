@@ -30,4 +30,4 @@ TIME: ⏱ 10 minutes
 
 Choose your own adventure! You may:
 
-1.  Run through the blogdown checks
+1.  Run through the blogdown checks, following: <https://alison.rbind.io/post/2020-12-27-blogdown-checks/>
