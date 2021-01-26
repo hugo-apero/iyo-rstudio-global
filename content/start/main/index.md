@@ -15,7 +15,7 @@ intro: |
   
 show_outro: true
 outro: |
-  Thank you for joining me for these 2 days! I'd love to see your sites &mdash; if you are on twitter, be sure to share it with the `#keepglobalgoing` hashtag, and tag it with your <i class="fab fa-r-project"></i> package:<br><br>
+  Thank you for joining me for these 2 days! I'd love to see your sites &mdash; if you are on twitter, be sure to share it with the `#KeepGlobalGoing` hashtag, and tag it with your <i class="fab fa-r-project"></i> package:<br><br>
   <ul class="list measure center ph4 pb4">
     <li class="lh-copy pv2 ba bl-0 bt-0 br-0 b--dotted"><code>#rmarkdown</code></li>
     <li class="lh-copy pv2 ba bl-0 bt-0 br-0 b--dotted"><code>#distill</code></li>
