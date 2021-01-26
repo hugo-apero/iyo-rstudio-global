@@ -43,30 +43,35 @@ We just created:
 -   deployed to Netlify
 -   in a remote repository on GitHub.
 
-To make a local copy on our computer that we can actually work in, we’ll clone that repository into a new RStudio project. This will allow us to sync between the two locations: your remote (the one you see on github.com, and the one continuously deployed by Netlify) and your local desktop. Do this (requires a GitHub personal access token):
+To make a local copy on our computer that we can actually work in, we’ll clone that repository into a new RStudio project. This will allow us to sync between the two locations: your remote (the one you see on github.com, and the one continuously deployed by Netlify) and your local desktop.
 
-``` r
-usethis::create_from_github("apreshill/iyo-apero", 
-                            destdir = "/Users/alison/rscratch")
-```
-
-**Alternatively**, use the RStudio IDE project wizard:
+Use the RStudio IDE project wizard:
 
 1.  Open up RStudio to create a new project where your website’s files will live.
 
 2.  Click `File > New Project > Version Control > Git`.
 
-3.  Paste the URL from GitHub (either HTTPS or SSH).
+3.  Paste the URL from GitHub (either HTTPS or SSH)
 
 4.  Be intentional about where you tell RStudio to create this new Project on your workstation.
 
 5.  Click Create Project.
+
+**Alternatively**, do this (but note that it requires a [GitHub personal access token](https://happygitwithr.com/credential-caching.html#get-a-pat)):
+
+``` r
+usethis::create_from_github("apreshill/iyo-apero", 
+                            destdir = "/Users/alison/rscratch",
+                            fork = FALSE)
+```
 
 ### Serve your site locally
 
 Use the serve site add-in from the blogdown package to preview your site:
 
 ![](addin-serve-site.png)
+
+You should be **all set** to now commit / push / pull from your *personal* GitHub repository freely! Every commit to the `main` branch will trigger your Hugo site to be built and deployed again via Netlify :magic:
 
 ### File scavenger hunt
 
