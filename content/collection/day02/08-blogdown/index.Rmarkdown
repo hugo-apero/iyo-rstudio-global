@@ -1,9 +1,9 @@
 ---
 title: "Why blogdown?"
 weight: 8
-subtitle: ""
+subtitle: "Best practices for building Hugo sites with blogdown."
 date: 2021-01-26
-draft: true
+draft: false
 links:
 - icon: campground
   icon_pack: fas
