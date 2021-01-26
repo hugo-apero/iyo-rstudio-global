@@ -33,7 +33,7 @@ Let’s use this time to configure your new Hugo site.
 
 ### Site configuration
 
-Edit your `config.toml` file. This is your basic Hugo site configuration file.
+Edit your `config.toml` file. This is your basic Hugo site configuration file. It is not *quite* YAML- it is written in TOML, which means we have `key = value` instead of `key: value` pairs.
 
 Biggest payoffs right away will be to switch up the built-in font choice:
 

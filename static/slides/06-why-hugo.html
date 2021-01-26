@@ -4,7 +4,7 @@
     <title>Introduce Yourself Online</title>
     <meta charset="utf-8" />
     <meta name="author" content="Dr. Alison Presmanes Hill" />
-    <meta name="date" content="2021-01-25" />
+    <meta name="date" content="2021-01-26" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <script src="libs/clipboard/clipboard.min.js"></script>
@@ -55,7 +55,7 @@ Content organization (subfolders!)
 
 --
 
-Layout flexibility
+Layouts
 
 --
 
@@ -65,6 +65,126 @@ Multilingual sites
 
 Powerful taxonomies
 
+--
+
+Magical [list templates](https://gohugo.io/templates/lists/)
+
+---
+class: inverse, center, middle
+
+## What *is* Hugo?
+
+--
+
+`themes/hugo-apero/layouts/`
+
+---
+class: middle
+
+
+```html
+&lt;header class="post-header"&gt;
+  &lt;h1 class="f1 lh-solid measure-narrow mb3 fw4"&gt;{{ .Title }}&lt;/h1&gt;
+  {{ if .Params.subtitle }}
+    &lt;h4 class="f4 mt0 mb4 lh-title measure"&gt;
+    {{ .Params.subtitle }}
+    &lt;/h4&gt;
+  {{ end }}
+&lt;/header&gt;
+```
+
+--
+
+
+![](img/hugo-single.png)
+
+---
+class: bottom, center
+background-image: url(img/mustache.jpg)
+background-size: 25%
+background-color: #ffffff
+
+
+## Hugo = a double curly brace templating system
+
+## `{{ &lt;hugo code goes here&gt; }}`
+
+
+---
+class: middle 
+
+# Use your YAMLs 🍠
+
+AKA "frontmatter"
+
+.pull-left[
+```yaml
+---
+title: "Using panelsets"
+subtitle: "How to add panelsets..."
+---
+```
+]
+
+--
+
+.pull-right[
+```go
+
+{{ .Title }}
+{{ .Params.subtitle }}
+
+```
+]
+
+
+---
+class: middle
+
+# Hugo Page Bundles
+
+```
+.
+├── content/
+│   ├── privacy/index.md       # =&gt; a leaf bundle
+│   └── faves/                 # =&gt; a branch bundle
+│       ├── _index.md          # =&gt; AHA!
+│       ├── roses/index.md     # =&gt; a leaf bundle
+│       ├── kittens/index.md   # =&gt; another leaf bundle
+│       └── kettles/index.md   # =&gt; yet another leaf bundle
+```
+
+---
+class: middle
+
+# Hugo list vs single templates
+
+.pull-left[
+![](img/hugo-list-page.png)
+]
+
+--
+
+.pull-right[
+![](img/hugo-single-page.png)
+]
+
+---
+class: middle
+
+# Hugo list vs single templates
+
+```
+.
+├── content/
+│   ├── privacy/index.md       # =&gt; single page
+│   └── faves/                 
+│       ├── _index.md          # =&gt; **list all faves**!
+│       ├── roses/index.md     # =&gt; single page
+│       ├── kittens/index.md   # =&gt; single page
+│       └── kettles/index.md   # =&gt; single page
+```
+
 ---
 class: activity, center, middle
 
@@ -72,7 +192,7 @@ class: activity, center, middle
 
 ## To configure your new Hugo site!
 
-🕕 10 minutes
+🕚 10 minutes
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>

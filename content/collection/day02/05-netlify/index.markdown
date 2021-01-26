@@ -38,7 +38,7 @@ Click on the “Deploy to Netlify” button 🚀
 
 You have 10 minutes to get to know this new Hugo site.
 
-How? Meet my here bot! :mag:
+How? Meet the here bot! :mag:
 
 Try to use the here bot messages to find the content file that produces the content in this starter site. There are:
 
