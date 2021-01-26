@@ -17,9 +17,9 @@ author: Alison Hill
 | Time (ET) | Topic                         |
 |-----------|-------------------------------|
 | 08:00     | Introduction                  |
-| 08:10     | [Why online?](01-github/) / [Why R Markdown?](02-postcards/) |
+| 08:10     | [Why Netlify?](05-netlify/) / [Why Hugo?](06-hugo/) |
 | 08:50     | Break                         |
-| 09:00     | [Why R?](03-distill) / [Why blog?](04-blog)           |
+| 09:00     | [Why Hugo Apéro?](07-apero) / [Why blogdown?](08-blogdown)           |
 | 10:00     | Fin                           |
 
 See [date/time zone helper for local times](https://www.timeanddate.com/worldclock/fixedtime.html?iso=20210125T080000&p1=25).
@@ -29,9 +29,9 @@ See [date/time zone helper for local times](https://www.timeanddate.com/worldclo
 | Time (ET) | Topic                         |
 |-----------|-------------------------------|
 | 01:00     | Introduction                  |
-| 01:10     | [Why online?](01-github/) / [Why R Markdown?](02-postcards/) |
+| 01:10     | [Why Netlify?](05-netlify/) / [Why Hugo?](06-hugo/) |
 | 01:50     | Break                         |
-| 02:00     | [Why R?](03-distill) / [Why blog?](04-blog)           |
+| 02:00     | [Why Hugo Apéro?](07-apero) / [Why blogdown?](08-blogdown)           |
 | 03:00     | Fin                           |
 
 See [date/time zone helper for local times](https://www.timeanddate.com/worldclock/fixedtime.html?iso=20210125T130000&p1=25).
