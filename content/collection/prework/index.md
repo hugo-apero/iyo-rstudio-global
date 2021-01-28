@@ -23,8 +23,8 @@ We will be using GitHub in this workshop for version control and publishing. Sig
 + Test your connection between GitHub and RStudio following [these steps](https://happygitwithr.com/connect-intro.html).
 
 + **NOTE:** We *strongly recommend* that:
-        + you choose [HTTPS over SSH](https://happygitwithr.com/credential-caching.html), andd 
-        + you setup a [GitHub Personal Access Token](https://happygitwithr.com/credential-caching.html#get-a-pat).
+    + you choose [HTTPS over SSH](https://happygitwithr.com/credential-caching.html), and
+    + you setup a [GitHub Personal Access Token](https://happygitwithr.com/credential-caching.html#get-a-pat).
 
 + Check your new repository settings. As of [October 1, 2020](https://github.blog/changelog/2020-08-26-set-the-default-branch-for-newly-created-repositories/), GitHub will set `main` as the default branch for all new repositories, instead of `master`. To check this, for user accounts, go to: <https://github.com/settings/repositories>
 
