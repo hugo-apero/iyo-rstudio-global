@@ -48,7 +48,9 @@ packageVersion("distill")
 
 ### Create GitHub repo
 
-Go online to your GitHub account, and create a new repository (leave it empty- don't add a `README` or `.gitignore`).
+We'll follow a ["New Project, GitHub first"](https://happygitwithr.com/new-github-first.html) workflow.
+
+Go online to your GitHub account, and create a new repository and **YES** initialize this repository by adding a `README` file.
 
 ### Clone GitHub repo
 
@@ -78,19 +80,16 @@ usethis::create_from_github("apreshill/iyo-distill",
 
 **Everyone - all together now!**
 
-```bash
-> git add .
-> git commit -m "initial commit"
-> git push origin main
-```
-
-You should be committing these files:
+Use the RStudio IDE to commit and push these files:
 
 + `*.Rproj`
 
 + `.gitignore`
 
-After this first push, you should be able to use the RStudio IDE to commit / push / pull freely.
++ `*.Rproj`
+
++ `.gitignore`
+
 
 ### Create a new distill site
 
