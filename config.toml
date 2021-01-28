@@ -33,52 +33,65 @@ enableEmoji = true
   favicon = "/img/global-favicon.png"
   logo = "/img/RStudio-Logo-Gray.png"
   mainSections = ["project"]
-  show_social_links = true
   navallcaps = true
+  # show/hide social icons in site header & footer
+  # configure social icons and links below in [[params.social]]
+  socialInHeader = false
+  socialInFooter = true
   # Default image for social sharing and search engines. 
   # Place image file in `static` folder and specify image name here.
   sharing_image = "rstudio-global-title-center-1100.jpg"
   # Twitter username (without @). Used when a visitor shares your site on Twitter.
   twitter = "rstudio"
   
-  # basic font options: sans-serif or serif
+  # use a built-in color theme
+  # one of: forest / grayscale / peach / plum /
+  #         poppy / sky / violet / water 
+  theme = "grayscale"
+  
+  # or, leave theme empty & make your own palette
+  # see docs at https://hugo-apero.netlify.app/blog/color-themes/
+  # the custom scss file must be in the assets/ folder
+  # add the filename name here, without extension
+  # to use hex colors instead of named tachyons colors, include "hex" in filename
+  custom_theme = "" 
+  
+  # use an embedded font-family
+  # serif options: Fraunces / EB Garamond / Bitter
+  # sans-serif options: Commissioner / Alegreya Sans / Metropolis
+  # if you import your own fonts, name them here too
+  customtextFontFamily = "Commissioner"
+  customheadingFontFamily = "Fraunces"
+  # alternatively, leave empty and select basic font options: sans-serif or serif
   # for more http://tachyons.io/docs/typography/font-family/
   textFontFamily = "sans-serif"
   headingFontFamily = "sans-serif"
-  # alternatively, use a built-in font-family
-  # serif options: Fraunces / EB Garamond / Bitter
-  # sans-serif options: Commissioner / Alegreya Sans / Metropolis
-  customtextFontFamily = "Commissioner"
-  customheadingFontFamily = "Fraunces"
-  
-  # use a built-in color theme
-  # one of: forest / grayscale / peach / plum /
-  #         poppy / sky / violet / water
-  theme = "grayscale"
 
-  # or, leave theme empty & make your own palette
-  # basic color options: use only color names as shown in the
-  # "Color Palette" section of http://tachyons.io/docs/themes/skins/
-  siteBgColor = "near-white"
-  sidebarBgColor = "light-gray"
-  headlineColor = "dark-pink"
-  headingColor = "near-black"
-  textColor = "dark-gray"
-  sidebarTextColor = "mid-gray"
-  bodyLinkColor = "blue"
-  navLinkColor = "near-black"
-  sidebarLinkColor = "near-black"
-  footerTextColor = "silver"
-  buttonTextColor = "near-white"
-  buttonBgColor = "black"
-  buttonHoverTextColor = "white"
-  buttonHoverBgColor = "blue"
-  borderColor = "moon-gray"
-  
-  # show/hide social icons in site header/footer/home page
-  socialInHeader = false
-  socialInFooter = true
-  socialInHome = true
+  # Social icons may appear on homepage and in site header or footer
+  # Configure show/hide above - add as many as you like below
+  # Icon pack "fab" includes brand icons, see: https://fontawesome.com/icons?d=gallery&s=brands&m=free
+  # Icon pack "fas" includes solid icons, see: https://fontawesome.com/icons?d=gallery&s=solid&m=free
+  # Icon pack "far" includes regular icons, see: https://fontawesome.com/icons?d=gallery&s=regular&m=free
+  [[params.social]]
+      icon      = "globe" # icon name without the 'fa-'
+      icon_pack = "fas"
+      url       = "https://global.rstudio.com"
+  [[params.social]]
+      icon      = "link" # icon name without the 'fa-'
+      icon_pack = "fas"
+      url       = "https://iyo-rstudio-global.netlify.app/"
+  [[params.social]]
+      icon      = "github" # icon name without the 'fa-'
+      icon_pack = "fab"
+      url       = "https://github.com/rstudio-education/iyo-rstudio-global"
+  [[params.social]]
+      icon      = "twitter" # icon name without the 'fa-'
+      icon_pack = "fab"
+      url       = "https://twitter.com/apreshill"
+  [[params.social]]
+      icon      = "hashtag" # icon name without the 'fa-'
+      icon_pack = "fas"
+      url       = "https://twitter.com/hashtag/KeepGlobalGoing"
 
 [taxonomies]
   category = "categories"

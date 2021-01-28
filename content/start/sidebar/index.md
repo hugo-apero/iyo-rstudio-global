@@ -4,7 +4,7 @@ author: "Introduce yourself online"
 role: "A workshop @ rstudio::global(2021)"
 avatar: avatar.jpg
 avatar_shape: rounded # circle, square, rounded
-show_social: true
+show_social_links: true # specify social accounts in site config
 show_audio_link: false
 audio_link: 
 - name: How to say my name
